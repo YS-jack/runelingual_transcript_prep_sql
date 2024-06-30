@@ -2,30 +2,31 @@ import json
 import sqlite3
 import common
 
+
 def connect_to_db(db_file):
     conn = sqlite3.connect(db_file)
     return conn, conn.cursor()
 
 def create_table(cursor):
     """Create the transcript table if it doesn't exist."""
-    cursor.execute('''
+    cursor.execute(f'''
         CREATE TABLE IF NOT EXISTS transcript (
             key INTEGER PRIMARY KEY, 
-            english TEXT, 
-            category TEXT, 
-            sub_category TEXT, 
-            source TEXT, 
-            widget_id INTEGER, 
-            parent_widget_id INTEGER, 
-            width INTEGER, 
-            height INTEGER, 
-            notes TEXT, 
-            date_modified TEXT
+            {common.COLUMN_NAME_ENGLISH} TEXT,
+            {common.COLUMN_NAME_CATEGORY} TEXT,
+            {common.COLUMN_NAME_SUB_CATEGORY} TEXT,
+            {common.COLUMN_NAME_SOURCE} TEXT,
+            {common.COLUMN_NAME_WIDGET_ID} INTEGER,
+            {common.COLUMN_NAME_PARENT_WIDGET_ID} INTEGER,
+            {common.COLUMN_NAME_WIDTH} INTEGER,
+            {common.COLUMN_NAME_HEIGHT} INTEGER,
+            {common.COLUMN_NAME_NOTES} TEXT,
+            {common.COLUMN_NAME_DATE_MODIFIED} TEXT
         )
     ''')
 
-    cursor.execute('''
-                   CREATE INDEX IF NOT EXISTS english_index ON transcript (english)
+    cursor.execute(f'''
+                   CREATE INDEX IF NOT EXISTS english_index ON transcript ({common.COLUMN_NAME_ENGLISH});
                    ''')
 
 def check_record_exists(c, conditions):
@@ -46,21 +47,10 @@ def check_record_exists(c, conditions):
     
     # Join all WHERE clauses with 'AND'
     query += " AND ".join(where_clauses)
-    
-    # Debug: Print the query and values
-    #print("Executing query:", query)
-    #print("With values:", values)
-
     # Execute the query
     c.execute(query, tuple(values))
-    
     # Retrieve the result
     result = c.fetchone()
-
-    # Debug: Print the query, values, and return value
-    #print("Executing query:", query)
-    #print("With values:", values)
-    #print("return value:", result is not None)
     
     # Check if any record exists based on the stored result
     return result is not None
@@ -109,18 +99,28 @@ def insert_data(conn, c, data):
 
             for key, value in entity.items(): #key = "name", "examine", "inventoryActions" etc
                 query = f'''
-                        INSERT INTO {common.TABLE_NAME} (english, category, sub_category, source, widget_id, parent_widget_id, width, height, notes, date_modified)
+                        INSERT INTO {common.TABLE_NAME} (
+                        {common.COLUMN_NAME_ENGLISH}, 
+                        {common.COLUMN_NAME_CATEGORY}, 
+                        {common.COLUMN_NAME_SUB_CATEGORY}, 
+                        {common.COLUMN_NAME_SOURCE}, 
+                        {common.COLUMN_NAME_WIDGET_ID}, 
+                        {common.COLUMN_NAME_PARENT_WIDGET_ID}, 
+                        {common.COLUMN_NAME_WIDTH}, 
+                        {common.COLUMN_NAME_HEIGHT}, 
+                        {common.COLUMN_NAME_NOTES}, 
+                        {common.COLUMN_NAME_DATE_MODIFIED})
                         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                     '''
                 # if its a name
                 if key in [common.ITEM_NAME_VAR_NAME, common.NPC_NAME_VAR_NAME, common.OBJECT_NAME_VAR_NAME]\
-                        and not check_record_exists(c, {"english":value}):
-                    c.execute(query, (value, key, category_type, '', 0, 0, 0, 0, '', ''))
+                        and not check_record_exists(c, {common.COLUMN_NAME_ENGLISH:value}):
+                    c.execute(query, (value, key, category_type, '', 0, 0, 0, 0, '', common.TODAYS_DATE))
 
                 # if its an examine
                 elif key in [common.ITEM_EXAMINE_VAR_NAME, common.NPC_EXAMINE_VAR_NAME, common.OBJECT_EXAMINE_VAR_NAME]\
-                        and not check_record_exists(c, {"english":value}):
-                    c.execute(query, (value, key, category_type, source_name, 0, 0, 0, 0, '', ''))
+                        and not check_record_exists(c, {common.COLUMN_NAME_ENGLISH:value}):
+                    c.execute(query, (value, key, category_type, source_name, 0, 0, 0, 0, '', common.TODAYS_DATE))
 
 
                 # if its an option
@@ -128,8 +128,8 @@ def insert_data(conn, c, data):
                     for option in value:
                         if type(option) != str or option == "Null":
                             continue
-                        elif not check_record_exists(c, {"english":option, "sub_category":category_type}):
-                            c.execute(query, (option, key, category_type, source_name, 0, 0, 0, 0, '', ''))
+                        elif not check_record_exists(c, {common.COLUMN_NAME_ENGLISH:option, common.COLUMN_NAME_SUB_CATEGORY:category_type}):
+                            c.execute(query, (option, key, category_type, source_name, 0, 0, 0, 0, '', common.TODAYS_DATE))
     
     conn.commit()
                         
