@@ -1,0 +1,39 @@
+import * as c2 from "@abextm/cache2";
+import * as context from "viewer/context";
+
+
+const itemAll = await c2.Item.all(context.cache);
+const npcAll = await c2.NPC.all(context.cache);
+const objAll = await c2.Obj.all(context.cache);
+
+const itemCompacted = extractVar(["name","examine","inventoryActions"], itemAll);
+const npcCompacted = extractVar(["name","actions"], npcAll);
+const objCompacted = extractVar(["name","actions"], objAll);
+
+
+console.log(JSON.stringify(itemCompacted));
+console.log(JSON.stringify(npcCompacted));
+console.log(JSON.stringify(objCompacted));
+
+interface Dictionary{
+	[key: string]: any;
+}
+
+function extractVar(varList:string[], listAll:Dictionary[]):Dictionary[] {
+	let extractedList:Dictionary[] = []
+	for (const l of listAll) {
+		let item:Dictionary = {};
+		if (l["name"] === "" || l["name"] === "null") {
+			continue;
+		}
+		for(const v of varList){
+			if (l[v] === null) {
+				item[v] = ""
+			} else {
+				item[v] = l[v];
+			}
+		}
+		extractedList.push(item);
+	}
+	return extractedList;
+}

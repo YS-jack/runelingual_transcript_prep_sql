@@ -1,0 +1,64 @@
+import * as c2 from "@abextm/cache2";
+import * as context from "viewer/context";
+
+/*
+interface Dictionary{
+	[key: string]: any;
+}
+
+function fillList(sourceList:Dictionary[], varName:string): string[] {
+	let tempList: string[] = [];
+	sourceList.forEach(obj => {
+		Object.keys(obj).forEach(key => {
+			if (key === varName && obj[key] != "null" && obj[key] != "Null" && obj[key] != "") {
+				tempList.push(obj[key]);
+			}
+		})
+	})
+	let noDupeList = [...new Set(tempList)];
+	// // if varName isnt for menu options ("actions" and "inventoryActions", elements needs to be spread and have null values taken out
+	if (varName === "actions" || varName === "inventoryActions"){
+		let menuOptionList:string[] = [];
+		for (const optionList of noDupeList) {
+			for (const option of optionList) {
+				if (option != "null" && option != null) {
+					menuOptionList.push(option);
+				}
+			}
+		}
+		return [...new Set(menuOptionList)];
+	} else {// if varName isnt for menu options ("actions" and "inventoryActions", just return the none dupe List
+		return noDupeList;
+	}
+}
+*/
+
+//console.log(await c2.Item.load(context.cache, 4151));
+const itemAll = await c2.Item.all(context.cache);
+const npcAll = await c2.NPC.all(context.cache);
+const objAll = await c2.Obj.all(context.cache);
+
+console.log(itemAll);
+console.log(npcAll);
+console.log(objAll);
+
+
+/*
+// fill in the variables
+let itemName:string[] = fillList(itemAll, "name");
+let npcName:string[] = fillList(npcAll, "name");
+let objName:string[] = fillList(objAll, "name");
+
+let itemExamine:string[] = fillList(itemAll, "examine");
+let itemOptions:string[] = fillList(itemAll,"inventoryActions");
+let npcOptions:string[] = fillList(npcAll,"actions");
+let objOptions:string[] = fillList(objAll,"actions");
+
+console.log(itemName);
+console.log(itemExamine);
+console.log(npcName);
+console.log(objName);
+console.log(itemOptions);
+console.log(npcOptions);
+console.log(objOptions);
+*/
