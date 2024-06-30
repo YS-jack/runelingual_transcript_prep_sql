@@ -55,7 +55,7 @@ def check_record_exists(c, conditions):
     # Check if any record exists based on the stored result
     return result is not None
 
-def insert_data(conn, c, data):
+def insert_cache_json_data(conn, c, data):
 
     """
     Insert data in the transcript table.
@@ -144,7 +144,39 @@ def jsonFileToSQL(jsonFile):
     create_table(c)
 
     #insert data into the table
-    insert_data(conn, c, data)
+    insert_cache_json_data(conn, c, data)
+    
+def insert_record(conn, c, record):
+    """
+    args:
+    conn: sqlite3.Connection object
+    c: sqlite3.Cursor object
+    record: dictionary of column-value pairs to insert e.g. {"english": dialogue, "category": category, ...}
+    record doesnt contain every column, only the ones that are not empty values
+    """
+    columns = ', '.join(record.keys())
+    val_placeholders = ', '.join(['?' for _ in record.keys()])
+    query = f'''
+            INSERT INTO {common.TABLE_NAME} (
+            {columns})
+            VALUES ({val_placeholders})
+        '''
+    c.execute(query, tuple(record.values()))
+    conn.commit()
+
+def wikiDataToSQL(wiki_data):
+    """
+    args:
+    wiki_data: dictionary in list format: [{"english": dialogue, "category": category, ...}, {...}, ...]
+    """
+    conn, c = connect_to_db(common.DATABASE_PATH)
+
+    #create_table if it doesn't exist
+    create_table(c)
+
+    #insert data into the table
+    for record in wiki_data:
+        insert_record(conn, c, record)
     
 
 if __name__ == "__main__":
