@@ -50,8 +50,10 @@ def get_data_from_wiki_page(url, category):
         for b_tag in mw_parser_output.find_all("b"):
             sibling_texts = []
             next_sibling = b_tag.next_sibling
-            while next_sibling: # for when there are multiple siblings containing text
-                if next_sibling.find("i") or next_sibling.find("a"): # if the sibling contains <i> or <a> tag, skip
+            # for when there are multiple siblings containing text
+            while next_sibling: 
+                if next_sibling.name in ["i" or "a"]: # if the sibling contains <i> or <a> tag, skip
+                    #print("skipping: ", next_sibling.name)
                     next_sibling = next_sibling.next_sibling
                     continue
                 if next_sibling.name:
@@ -60,6 +62,7 @@ def get_data_from_wiki_page(url, category):
                     sibling_texts.append(next_sibling.strip())
                 next_sibling = next_sibling.next_sibling
             full_text = " ".join(sibling_texts).strip()
+
             raw_text = (b_tag.get_text(strip=True), full_text)
             #print(raw_text)
             raw_text_list.append(raw_text)
@@ -69,8 +72,11 @@ def get_data_from_wiki_page(url, category):
             raw_text = div_tag.get_text(strip=True)
             if re.match(r"Dialogue \d+", raw_text.strip()):
                 continue
-            #print(raw_text)
-            raw_text_list.append(raw_text)
+            # Remove conditions before the option, e.g. (If the player has a firecape in their inventory:) I have a fire cape here.
+            clean_text = re.sub(r'^\(.*?:\)', '', raw_text)
+            #print(clean_text)
+            raw_text_list.append(clean_text)
+    #print("number of raw text : ", len(raw_text_list))
 
     # Step 5: reformat the raw texts in raw_text_list[] and insert to data[]
     data_normal = []
@@ -82,7 +88,7 @@ def get_data_from_wiki_page(url, category):
             
             speaker = speaker.replace(":", "")
             # Use re.sub to remove >[%s] at the beginning of dialogue
-            dialogue = dialogue.replace("[sic] ", "").strip()
+            dialogue = dialogue.replace("[sic] ", "").replace("[sic]", "").strip()
 
             # Check if the dialogue is not empty
             if dialogue:
@@ -158,24 +164,25 @@ def scrape_wiki():
     """
     data = []
     if common.FETCH_NPCDIALOGUE:
-        """# Step 1: Get the base URL for each category
+        # Step 1: Get the base URL for each category
         base_url_npc_dialogue = common.WIKI_URL["npc_dialogue"]
 
         # Step 2: Get all the URLs for every page of the npc's dailogue, like "Banker (Al Kharid)" etc.
         url_list_npc_dialogue = get_all_urls_of_entity(common.WIKI_URL["base"], base_url_npc_dialogue)
-        print("number of npcs: ",len(url_list_npc_dialogue))"""
+        #print("number of npcs: ",len(url_list_npc_dialogue))
 
+        """#for debugging
         dialogue_data = get_data_from_wiki_page("https://oldschool.runescape.wiki/w/Transcript:TzHaar-Mej-Jal", common.WIKI_URL["npc_dialogue"])
         for dialogue in dialogue_data:
             print(dialogue)
-            print()
-        """
+            print()"""
+        
         # Step 3: Get the data from each page in dictionary form
         for url in url_list_npc_dialogue:
-            print("checking : ", url)
+            print("fetching from : ", url)
             dialogue_data = get_data_from_wiki_page(url, common.WIKI_URL["npc_dialogue"])
             data += dialogue_data
-            #print(dialogue_data)"""
+            #print(dialogue_data)
 
     """    if common.FETCH_PETDIALOGUE:
         base_url_pet_dialogue = common.WIKI_URL["pet_dialogue"]

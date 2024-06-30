@@ -21,7 +21,8 @@ def create_table(cursor):
             {common.COLUMN_NAME_WIDTH} INTEGER,
             {common.COLUMN_NAME_HEIGHT} INTEGER,
             {common.COLUMN_NAME_NOTES} TEXT,
-            {common.COLUMN_NAME_DATE_MODIFIED} TEXT
+            {common.COLUMN_NAME_DATE_MODIFIED} TEXT,
+            {common.COLUMN_NAME_WIKI_URL} TEXT
         )
     ''')
 
@@ -116,12 +117,12 @@ def insert_cache_json_data(conn, c, data):
                 # if its a name
                 if key in [common.ITEM_NAME_VAR_NAME, common.NPC_NAME_VAR_NAME, common.OBJECT_NAME_VAR_NAME]\
                         and not check_record_exists(c, {common.COLUMN_NAME_ENGLISH:value}):
-                    c.execute(query, (value, key, category_type, '', 0, 0, 0, 0, '', common.TODAYS_DATE))
+                    c.execute(query, (value, key, category_type, '', 0, 0, 0, 0, '', common.TODAYS_DATE, ''))
 
                 # if its an examine
                 elif key in [common.ITEM_EXAMINE_VAR_NAME, common.NPC_EXAMINE_VAR_NAME, common.OBJECT_EXAMINE_VAR_NAME]\
                         and not check_record_exists(c, {common.COLUMN_NAME_ENGLISH:value}):
-                    c.execute(query, (value, key, category_type, source_name, 0, 0, 0, 0, '', common.TODAYS_DATE))
+                    c.execute(query, (value, key, category_type, source_name, 0, 0, 0, 0, '', common.TODAYS_DATE, ''))
 
 
                 # if its an option
@@ -130,7 +131,7 @@ def insert_cache_json_data(conn, c, data):
                         if type(option) != str or option == "Null":
                             continue
                         elif not check_record_exists(c, {common.COLUMN_NAME_ENGLISH:option, common.COLUMN_NAME_SUB_CATEGORY:category_type}):
-                            c.execute(query, (option, key, category_type, source_name, 0, 0, 0, 0, '', common.TODAYS_DATE))
+                            c.execute(query, (option, key, category_type, source_name, 0, 0, 0, 0, '', common.TODAYS_DATE, ''))
     
     conn.commit()
                         

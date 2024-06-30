@@ -6,7 +6,7 @@ import common
 
 def main():
     #cacheHandler.reformatCacheViewerOutput()
-    #jsonHandler.jsonFileToSQL(common.CACHE_UPDATED_PATH)
+    jsonHandler.jsonFileToSQL(common.CACHE_UPDATED_PATH)
     wiki_data = wikiScraper.scrape_wiki()
     jsonHandler.wikiDataToSQL(wiki_data)
 
