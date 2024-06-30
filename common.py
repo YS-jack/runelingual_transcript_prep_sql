@@ -20,4 +20,5 @@ OBJECT_OPTION_VAR_NAME = "actions"
 
 WIKI_URL = {"npc_dialogue" : "https://oldschool.runescape.wiki/w/Category:NPC_dialogue",
             "pet_dialogue" : "https://oldschool.runescape.wiki/w/Category:Pet_dialogue",
-            "level_up_message" : "https://oldschool.runescape.wiki/w/Category:Level_up_messages"}
+            "level_up_message" : "https://oldschool.runescape.wiki/w/Category:Level_up_messages",
+            "base" : "https://oldschool.runescape.wiki"}
