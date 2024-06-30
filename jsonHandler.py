@@ -109,8 +109,9 @@ def insert_cache_json_data(conn, c, data):
                         {common.COLUMN_NAME_WIDTH}, 
                         {common.COLUMN_NAME_HEIGHT}, 
                         {common.COLUMN_NAME_NOTES}, 
-                        {common.COLUMN_NAME_DATE_MODIFIED})
-                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        {common.COLUMN_NAME_DATE_MODIFIED},
+                        {common.COLUMN_NAME_WIKI_URL})
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                     '''
                 # if its a name
                 if key in [common.ITEM_NAME_VAR_NAME, common.NPC_NAME_VAR_NAME, common.OBJECT_NAME_VAR_NAME]\
@@ -162,7 +163,6 @@ def insert_record(conn, c, record):
             VALUES ({val_placeholders})
         '''
     c.execute(query, tuple(record.values()))
-    conn.commit()
 
 def wikiDataToSQL(wiki_data):
     """
@@ -177,6 +177,7 @@ def wikiDataToSQL(wiki_data):
     #insert data into the table
     for record in wiki_data:
         insert_record(conn, c, record)
+    conn.commit()
     
 
 if __name__ == "__main__":

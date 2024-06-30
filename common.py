@@ -35,6 +35,7 @@ COLUMN_NAME_WIDTH = "width"
 COLUMN_NAME_HEIGHT = "height"
 COLUMN_NAME_NOTES = "notes"
 COLUMN_NAME_DATE_MODIFIED = "date_modified"
+COLUMN_NAME_WIKI_URL = "wiki_url"
 
 WIKI_URL = {"npc_dialogue" : "https://oldschool.runescape.wiki/w/Category:NPC_dialogue",
             "pet_dialogue" : "https://oldschool.runescape.wiki/w/Category:Pet_dialogue",
