@@ -76,6 +76,12 @@ def get_data_from_wiki_page(url, category):
             clean_text = re.sub(r'^\(.*?:\)', '', raw_text)
             #print(clean_text)
             raw_text_list.append(clean_text)
+        
+        # Find all <div class="transcript-chatbox"> for dialogue with only text (no chat head)
+        for div_tag in mw_parser_output.find_all("div", class_="transcript-chatbox"):
+            raw_text = div_tag.get_text(strip=True)
+            raw_text_list.append(raw_text)
+
     #print("number of raw text : ", len(raw_text_list))
 
     # Step 5: reformat the raw texts in raw_text_list[] and insert to data[]
@@ -164,25 +170,27 @@ def scrape_wiki():
     """
     data = []
     if common.FETCH_NPCDIALOGUE:
-        # Step 1: Get the base URL for each category
+        """# Step 1: Get the base URL for each category
         base_url_npc_dialogue = common.WIKI_URL["npc_dialogue"]
 
         # Step 2: Get all the URLs for every page of the npc's dailogue, like "Banker (Al Kharid)" etc.
         url_list_npc_dialogue = get_all_urls_of_entity(common.WIKI_URL["base"], base_url_npc_dialogue)
         #print("number of npcs: ",len(url_list_npc_dialogue))
-
-        """#for debugging
-        dialogue_data = get_data_from_wiki_page("https://oldschool.runescape.wiki/w/Transcript:TzHaar-Mej-Jal", common.WIKI_URL["npc_dialogue"])
-        for dialogue in dialogue_data:
-            print(dialogue)
-            print()"""
         
         # Step 3: Get the data from each page in dictionary form
         for url in url_list_npc_dialogue:
             print("fetching from : ", url)
             dialogue_data = get_data_from_wiki_page(url, common.WIKI_URL["npc_dialogue"])
             data += dialogue_data
-            #print(dialogue_data)
+            #print(dialogue_data)"""
+        
+        #for debugging
+        dialogue_data = get_data_from_wiki_page("https://oldschool.runescape.wiki/w/Transcript:Abbot_Langley", common.WIKI_URL["npc_dialogue"])
+        for dialogue in dialogue_data:
+            print(dialogue['english'])
+            print()
+        print(len(dialogue_data))
+        
 
     """    if common.FETCH_PETDIALOGUE:
         base_url_pet_dialogue = common.WIKI_URL["pet_dialogue"]
