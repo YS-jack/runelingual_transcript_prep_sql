@@ -29,65 +29,49 @@ def get_data_from_wiki_page(url, category):
     
     # Step 2: Parse the webpage content
     soup = BeautifulSoup(response.text, 'html.parser')
-
-    # get target entity (name of npc, object, etc.)
-    if category == common.WIKI_URL["npc_dialogue"]:
-        entity_name = soup.find("h1", class_="firstHeading").get_text().replace("Dialogue for ", "")
-    
-    # Step 3: Extract the data
-    mw_parser_output = soup.find("div", class_="mw-parser-output")
-
-    # Check if mw_parser_output exists
-    if mw_parser_output is None:
-        print("Div with class 'mw-parser-output' not found.")
+    main_content = soup.find('div', class_='mw-parser-output')
+    if not main_content:
         return []
+    
+    #the dialogue part
+    li_elements = main_content.find_all('li')
+    text_part_list = []
 
-    # Step 4: retrieve the dialogue text and insert to raw_text_list[]
-    raw_text_list = []
+    entity_name = ''
+    for li in li_elements:
+        if li.find('i') is None and li.find('a') is None and li.find('li') is None:
+            b_tag = li.find('b')
+            if b_tag:
+                entity_name = b_tag.get_text().strip()
+                dialogue = li.get_text(strip=True).replace(entity_name, '',1)
+                entity_name = entity_name.replace(":", "").strip()
+                text_part_list.append((entity_name, dialogue))
+            else:
+                #print("no b tag found for"+li.get_text().strip())
+                text_part_list.append(('',li.get_text().strip()))
 
-    if category == common.WIKI_URL["npc_dialogue"]:
-        # Find all <b> tags for the speaker's dialogue
-        for b_tag in mw_parser_output.find_all("b"):
-            sibling_texts = []
-            next_sibling = b_tag.next_sibling
-            # for when there are multiple siblings containing text
-            while next_sibling: 
-                if next_sibling.name in ["i" or "a"]: # if the sibling contains <i> or <a> tag, skip
-                    #print("skipping: ", next_sibling.name)
-                    next_sibling = next_sibling.next_sibling
-                    continue
-                if next_sibling.name:
-                    sibling_texts.append(next_sibling.get_text(strip=True))
-                else:  
-                    sibling_texts.append(next_sibling.strip())
-                next_sibling = next_sibling.next_sibling
-            full_text = " ".join(sibling_texts).strip()
 
-            raw_text = (b_tag.get_text(strip=True), full_text)
-            #print(raw_text)
-            raw_text_list.append(raw_text)
-
-        # Find all <div class="transcript-opt"> for the player's options
-        for div_tag in mw_parser_output.find_all("div", class_="transcript-opt"):
-            raw_text = div_tag.get_text(strip=True)
-            if re.match(r"Dialogue \d+", raw_text.strip()):
-                continue
-            # Remove conditions before the option, e.g. (If the player has a firecape in their inventory:) I have a fire cape here.
-            clean_text = re.sub(r'^\(.*?:\)', '', raw_text)
-            #print(clean_text)
-            raw_text_list.append(clean_text)
+    #the option part
+    option_elements = main_content.find_all('div', class_='transcript-opt')
+    for option in option_elements:
+        # Remove all <i> tags from the option element
+        for i_tag in option.find_all('i'):
+            i_tag.decompose()
         
-        # Find all <div class="transcript-chatbox"> for dialogue with only text (no chat head)
-        for div_tag in mw_parser_output.find_all("div", class_="transcript-chatbox"):
-            raw_text = div_tag.get_text(strip=True)
-            raw_text_list.append(raw_text)
+        # Remove all <a> tags from the option element
+        for a_tag in option.find_all('a'):
+            a_tag.decompose()
 
+        if option.find('li') is None:
+            text_part_list.append(option.get_text().strip())
     #print("number of raw text : ", len(raw_text_list))
 
+    
+    
     # Step 5: reformat the raw texts in raw_text_list[] and insert to data[]
     data_normal = []
     data_option = []
-    for raw_text in raw_text_list:
+    for raw_text in text_part_list:
         # Check if the raw text is a tuple
         if isinstance(raw_text, tuple):
             speaker, dialogue = raw_text
@@ -170,7 +154,7 @@ def scrape_wiki():
     """
     data = []
     if common.FETCH_NPCDIALOGUE:
-        """# Step 1: Get the base URL for each category
+        # Step 1: Get the base URL for each category
         base_url_npc_dialogue = common.WIKI_URL["npc_dialogue"]
 
         # Step 2: Get all the URLs for every page of the npc's dailogue, like "Banker (Al Kharid)" etc.
@@ -182,14 +166,14 @@ def scrape_wiki():
             print("fetching from : ", url)
             dialogue_data = get_data_from_wiki_page(url, common.WIKI_URL["npc_dialogue"])
             data += dialogue_data
-            #print(dialogue_data)"""
+            #print(dialogue_data)
         
-        #for debugging
-        dialogue_data = get_data_from_wiki_page("https://oldschool.runescape.wiki/w/Transcript:Abbot_Langley", common.WIKI_URL["npc_dialogue"])
+        """#for debugging
+        dialogue_data = get_data_from_wiki_page("https://oldschool.runescape.wiki/w/Transcript:Ali_the_Camel_Man", common.WIKI_URL["npc_dialogue"])
         for dialogue in dialogue_data:
             print(dialogue['english'])
             print()
-        print(len(dialogue_data))
+        print(len(dialogue_data))"""
         
 
     """    if common.FETCH_PETDIALOGUE:

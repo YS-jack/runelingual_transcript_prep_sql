@@ -18,11 +18,19 @@ def get_li_text(url):
     
     #the dialogue part
     li_elements = main_content.find_all('li')
-    text_parts = []
-
+    text_part_list = []
+    entity_name = ''
     for li in li_elements:
         if li.find('i') is None and li.find('a') is None and li.find('li') is None:
-            text_parts.append(li.get_text().strip())
+            b_tag = li.find('b')
+            if b_tag:
+                entity_name = b_tag.get_text().strip()
+                dialogue = li.get_text(strip=True).replace(entity_name, '',1)
+                entity_name = entity_name.replace(":", "").strip()
+                text_part_list.append((entity_name, dialogue))
+            else:
+                #print("no b tag found for"+li.get_text().strip())
+                text_part_list.append(('',li.get_text().strip()))
 
 
     #the option part
@@ -37,11 +45,12 @@ def get_li_text(url):
             a_tag.decompose()
 
         if option.find('li') is None:
-            text_parts.append(option.get_text().strip())
-    return text_parts
+            text_part_list.append(option.get_text().strip())
+    return text_part_list
 
 # Example usage
 file_path = 'your_file.html'  # Replace with your HTML file path
 li_texts = get_li_text("https://oldschool.runescape.wiki/w/Transcript:Ali_the_Camel_Man")
 for i,text in enumerate(li_texts):
-    print(f'{i}: \n'+text)
+    print(f'{i}:')
+    print(text)
