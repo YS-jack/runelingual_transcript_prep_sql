@@ -40,7 +40,9 @@ COLUMN_NAME_WIKI_URL = "wiki_url"
 WIKI_URL = {"npc_dialogue" : "https://oldschool.runescape.wiki/w/Category:NPC_dialogue",
             "pet_dialogue" : "https://oldschool.runescape.wiki/w/Category:Pet_dialogue",
             "level_up_message" : "https://oldschool.runescape.wiki/w/Category:Level_up_messages",
+            "examine" : "https://oldschool.runescape.wiki/w/",
             "base" : "https://oldschool.runescape.wiki"}
 FETCH_NPCDIALOGUE = True
 FETCH_PETDIALOGUE = False
 FETCH_LEVELUPMESSAGE = False
+FETCH_EXAMINE = True
