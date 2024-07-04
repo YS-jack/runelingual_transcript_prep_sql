@@ -35,6 +35,8 @@ def check_record_exists(c, conditions):
     args:
         c: sqlite3.Cursor object
         conditions: dictionary of column-value pairs to check for existence
+    return:
+    true if record with same conditions exists, false otherwise
     """
     #base query
     query = f"SELECT 1 FROM {common.TABLE_NAME} WHERE "
@@ -148,7 +150,7 @@ def jsonFileToSQL(jsonFile):
     #insert data into the table
     insert_cache_json_data(conn, c, data)
     
-def insert_record(conn, c, record):
+def insert_record(c, record):
     """
     args:
     conn: sqlite3.Connection object
@@ -165,10 +167,16 @@ def insert_record(conn, c, record):
         '''
     c.execute(query, tuple(record.values()))
 
-def wikiDataToSQL(wiki_data):
+def dictListToSQL(dict_data, 
+                  skip_if_same_value_in_column = [common.COLUMN_NAME_ENGLISH, common.COLUMN_NAME_CATEGORY,
+                                                common.COLUMN_NAME_SUB_CATEGORY, common.COLUMN_NAME_SOURCE]):
     """
+    inserts given data to transcript table
     args:
-    wiki_data: dictionary in list format: [{"english": dialogue, "category": category, ...}, {...}, ...]
+    dict_data: dictionary in list format: [{"english": dialogue, "category": category, ...}, {...}, ...]
+    
+    skip_if_same_value_in_column: list of column names to check if the record already exists in the table
+                                will only store if no records matches all values in the stated column
     """
     conn, c = connect_to_db(common.DATABASE_PATH)
 
@@ -176,8 +184,10 @@ def wikiDataToSQL(wiki_data):
     create_table(c)
 
     #insert data into the table
-    for record in wiki_data:
-        insert_record(conn, c, record)
+    for record in dict_data:
+        if check_record_exists(c, {column: record[column] for column in skip_if_same_value_in_column}):
+            continue
+        insert_record(c, record)
     conn.commit()
     
 

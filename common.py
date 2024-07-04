@@ -5,9 +5,11 @@ CACHE_OUTPUT_PATH = "cache_viewer_files/Cache Viewer.html"
 CACHE_UPDATED_PATH = "cache_viewer_files/cacheData_formatted.txt"
 DATABASE_PATH = "transcript.db"
 TABLE_NAME = "transcript"
-ITEM_KEY = "items"
-NPC_KEY = "npcs"
-OBJECT_KEY = "objects"
+
+# KEYs are the values in column
+ITEM_KEY = "item"
+NPC_KEY = "npc"
+OBJECT_KEY = "object"
 
 # VAR_NAMEs are static values inserted to the database
 ITEM_NAME_VAR_NAME = "name"
@@ -46,3 +48,20 @@ FETCH_NPCDIALOGUE = True
 FETCH_PETDIALOGUE = False
 FETCH_LEVELUPMESSAGE = False
 FETCH_EXAMINE = True
+FETCH_ITEM_NPC_OBJECT_URLS = False
+
+CHISEL_URL = {"item_main" : "https://chisel.weirdgloop.org/moid/data_files/itemsmin.js",
+              "npc_main" : "https://chisel.weirdgloop.org/moid/data_files/npcsmin.js",
+              "object_main" : "https://chisel.weirdgloop.org/moid/data_files/objectsmin.js",
+              "npc_examine": "https://chisel.weirdgloop.org/moid/data_files/npc_examinesmin.js",
+              "object_examine": "https://chisel.weirdgloop.org/moid/data_files/object_examinesmin.js",}
+
+
+# DONT CHANGE unless the chisel data changes
+CHISEL_CATEGORY_NAME = {'item' : 'items', 'npc' : 'npcs', 'object' : 'objects', 'name': 'name',\
+                        'examine' : 'examine', 'action_item' : 'actInv',\
+                        'action_npc' : 'actions', 'action_object' : 'actions'}
+
+WIKI_SEARCH_BASE_URL = {"npc" : "https://oldschool.runescape.wiki/?title=Special%3ASearchByProperty&property=NPC+ID&value=",
+                        "object" : "https://oldschool.runescape.wiki/?title=Special%3ASearchByProperty&property=Object+ID&value=",
+                        "item" : "https://oldschool.runescape.wiki/?title=Special%3ASearchByProperty&property=Item+ID&value="}
