@@ -1,0 +1,57 @@
+english	category	sub_category
+Yes	manual	emote
+No	manual	emote
+Bow	manual	emote
+Angry	manual	emote
+Think	manual	emote
+Wave	manual	emote
+Shrug	manual	emote
+Cheer	manual	emote
+Beckon	manual	emote
+Laugh	manual	emote
+Jump for Joy	manual	emote
+Yawn	manual	emote
+Dance	manual	emote
+Jig	manual	emote
+Spin	manual	emote
+Headbang	manual	emote
+Cry	manual	emote
+Blow Kiss	manual	emote
+Panic	manual	emote
+Raspberry	manual	emote
+Clap	manual	emote
+Salute	manual	emote
+Goblin Bow	manual	emote
+Goblin Salute	manual	emote
+Glass Box	manual	emote
+Climb Rope	manual	emote
+Lean	manual	emote
+Glass Wall	manual	emote
+Idea	manual	emote
+Stamp	manual	emote
+Flap	manual	emote
+Slap Head	manual	emote
+Zombie Walk	manual	emote
+Zombie Dance	manual	emote
+Scared	manual	emote
+Rabbit Hop	manual	emote
+Skill Cape	manual	emote
+Zombie Hand	manual	emote
+Air Guitar	manual	emote
+Sit up	manual	emote
+Push up	manual	emote
+Star jump	manual	emote
+Jog	manual	emote
+Flex	manual	emote
+Hypermobile Drinker	manual	emote
+Uri transform	manual	emote
+Smooth dance	manual	emote
+Crazy dance	manual	emote
+Premier Shield	manual	emote
+Explore	manual	emote
+Relic unlock	manual	emote
+Party	manual	emote
+Trick	manual	emote
+Fortis Salute	manual	emote
+Crab dance	manual	emote
+Sit down	manual	emote

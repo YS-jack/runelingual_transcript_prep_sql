@@ -1,0 +1,571 @@
+english	category	sub_category
+Animal Magnetism	manual	quest
+Animal Magnetism	manual	quest
+Learn how to equip Ava's ranged devices.	manual	quest
+Another Slice of H.A.M.	manual	quest
+Another Slice of H.A.M.	manual	quest
+Learn how to use the Goblin Village teleport spheres.	manual	quest
+Ascent of Arceuus, The	manual	quest
+The Ascent of Arceuus	manual	quest
+Gain the Arceuus Memoirs teleport.	manual	quest
+Alfred Grimhand's Barcrawl	manual	quest
+Alfred Grimhand's Barcrawl	manual	quest
+Embark on a Barbarian rite of passage.	manual	quest
+Bear Your Soul	manual	quest
+Bear Your Soul	manual	quest
+Gain the Soul Bearer.	manual	quest
+Below Ice Mountain	manual	quest
+Below Ice Mountain	manual	quest
+Gain access to the Ruins of Camdozaal.	manual	quest
+Between a Rock...	manual	quest
+Between a Rock...	manual	quest
+Gain access to the Arzinian Gold Mine.	manual	quest
+Big Chompy Bird Hunting	manual	quest
+Big Chompy Bird Hunting	manual	quest
+Learn how to hunt Chompy Birds.	manual	quest
+Biohazard	manual	quest
+Biohazard	manual	quest
+Unlock the West Ardougne teleport spell.	manual	quest
+Black Knights' Fortress	manual	quest
+Black Knights' Fortress	manual	quest
+Assist the White Knights with their investigation.	manual	quest
+Bone Voyage	manual	quest
+Bone Voyage	manual	quest
+Gain access to Fossil Island.	manual	quest
+Cabin Fever	manual	quest
+Cabin Fever	manual	quest
+Gain access to Mos'LeHarmless.	manual	quest
+Client of Kourend	manual	quest
+Client of Kourend	manual	quest
+Gain Kharedst's Memoirs.	manual	quest
+Clock Tower	manual	quest
+Clock Tower	manual	quest
+Help Brother Kojo repair the Clock Tower.	manual	quest
+Cold War	manual	quest
+Cold War	manual	quest
+Gain access to the Penguin Agility Course.	manual	quest
+Contact!	manual	quest
+Contact!	manual	quest
+Gain the Keris dagger.	manual	quest
+Cook's Assistant	manual	quest
+Cook's Assistant	manual	quest
+Help the Lumbridge Castle Cook out of his baking bind.	manual	quest
+Corsair Curse, The	manual	quest
+The Corsair Curse	manual	quest
+Gain access to the Corsair Cove Bank.	manual	quest
+Creature of Fenkenstrain	manual	quest
+Creature of Fenkenstrain	manual	quest
+Gain a Ring of Charos.	manual	quest
+Curse of the Empty Lord	manual	quest
+Curse of the Empty Lord	manual	quest
+Gain a set of Ghostly Robes.	manual	quest
+Daddy's Home	manual	quest
+Daddy's Home	manual	quest
+Learn about the Construction skill.	manual	quest
+Darkness of Hallowvale	manual	quest
+Darkness of Hallowvale	manual	quest
+Learn the reverse Temple Trekking routes.	manual	quest
+Death Plateau	manual	quest
+Death Plateau	manual	quest
+Gain a set of Climbing Boots.	manual	quest
+Death to the Dorgeshuun	manual	quest
+Death to the Dorgeshuun	manual	quest
+Gain access to the H.A.M Store Room.	manual	quest
+Demon Slayer	manual	quest
+Demon Slayer	manual	quest
+Face your destiny in Varrock.	manual	quest
+Depths of Despair, The	manual	quest
+The Depths of Despair	manual	quest
+Gain the Hosidius Memoirs teleport.	manual	quest
+Desert Treasure I	manual	quest
+Desert Treasure I	manual	quest
+Learn how to use the Ancient Magicks.	manual	quest
+Devious Minds	manual	quest
+Devious Minds	manual	quest
+Dig Site, The	manual	quest
+The Dig Site	manual	quest
+Learn how to clean specimens in Varrock Museum.	manual	quest
+Doric's Quest	manual	quest
+Doric's Quest	manual	quest
+Gain early game Mining XP.	manual	quest
+Dragon Slayer I	manual	quest
+Dragon Slayer I	manual	quest
+Learn how to equip Rune and Dragon Platebodies.	manual	quest
+Dragon Slayer II	manual	quest
+Dragon Slayer II	manual	quest
+Gain great XP and access to the Myth's Guild.	manual	quest
+Dream Mentor	manual	quest
+Dream Mentor	manual	quest
+Learn how to cast more Lunar spells.	manual	quest
+Druidic Ritual	manual	quest
+Druidic Ritual	manual	quest
+Unlock the Herblore skill.	manual	quest
+Dwarf Cannon	manual	quest
+Dwarf Cannon	manual	quest
+Learn how to use a Dwarf Multicannons.	manual	quest
+Eadgar's Ruse	manual	quest
+Eadgar's Ruse	manual	quest
+Learn how to grow and steal Goutweed.	manual	quest
+Eagles' Peak	manual	quest
+Eagles' Peak	manual	quest
+Gain access to the Eagle transportation and Box Traps.	manual	quest
+Elemental Workshop I	manual	quest
+Elemental Workshop I	manual	quest
+Rediscover the knowledge hidden in Seers' Village.	manual	quest
+Elemental Workshop II	manual	quest
+Elemental Workshop II	manual	quest
+Learn how to equip Mind equipment.	manual	quest
+Enakhra's Lament	manual	quest
+Enakhra's Lament	manual	quest
+Gain a Camulet.	manual	quest
+Enchanted Key, The	manual	quest
+The Enchanted Key	manual	quest
+Hunt for hidden treasure using the Enchanted Key.	manual	quest
+Enlightened Journey	manual	quest
+Enlightened Journey	manual	quest
+Gain access to the Balloon transportation.	manual	quest
+Enter the Abyss	manual	quest
+Enter the Abyss	manual	quest
+Gain access to the Abyss.	manual	quest
+Ernest the Chicken	manual	quest
+Ernest the Chicken	manual	quest
+Investigate the whereabouts of Ernest.	manual	quest
+Eyes of Glouphrie, The	manual	quest
+The Eyes of Glouphrie	manual	quest
+Gain a Crystal Saw Seed.	manual	quest
+Fairytale I - Growing Pains	manual	quest
+Fairytale I - Growing Pains	manual	quest
+Learn how to teleport using Fairy Rings (start Fairytale II).	manual	quest
+Fairytale II - Cure a Queen	manual	quest
+Fairytale II - Cure a Queen	manual	quest
+Investigate what's really going on in Zanaris.	manual	quest
+Family Crest	manual	quest
+Family Crest	manual	quest
+Gain Skill-imbued Gauntlets.	manual	quest
+Family Pest	manual	quest
+Family Pest	manual	quest
+Gain the ability to own all Skill-imbued Gauntlets.	manual	quest
+Feud, The	manual	quest
+The Feud	manual	quest
+Learn how to use a Blackjack.	manual	quest
+Fight Arena	manual	quest
+Fight Arena	manual	quest
+Gain the Khazard armour.	manual	quest
+Fishing Contest	manual	quest
+Fishing Contest	manual	quest
+Gain access to White Wolf Mountain Pass.	manual	quest
+Forgettable Tale...	manual	quest
+Forgettable Tale...	manual	quest
+Forsaken Tower, The	manual	quest
+The Forsaken Tower	manual	quest
+Gain the Lovakengj Memoirs teleport.	manual	quest
+Fremennik Exiles, The	manual	quest
+The Fremennik Exiles	manual	quest
+Gain a V's Shield.	manual	quest
+Fremennik Isles, The	manual	quest
+The Fremennik Isles	manual	quest
+Gain a Helm of Neitiznot.	manual	quest
+Fremennik Trials, The	manual	quest
+The Fremennik Trials	manual	quest
+Gain great XP in several skills.	manual	quest
+Garden of Tranquillity	manual	quest
+Garden of Tranquillity	manual	quest
+Gain an Activated Ring of Charos.	manual	quest
+General's Shadow, The	manual	quest
+The General's Shadow	manual	quest
+Gain the Shadow Sword.	manual	quest
+Gertrude's Cat	manual	quest
+Gertrude's Cat	manual	quest
+Gain a pet Kitten.	manual	quest
+Getting Ahead	manual	quest
+Getting Ahead	manual	quest
+Help Gordon protect his farm.	manual	quest
+Ghosts Ahoy	manual	quest
+Ghosts Ahoy	manual	quest
+Gain access to Ectophial teleportation.	manual	quest
+Giant Dwarf, The	manual	quest
+The Giant Dwarf	manual	quest
+Learn how to travel by minecart.	manual	quest
+Goblin Diplomacy	manual	quest
+Goblin Diplomacy	manual	quest
+Investigate the disturbance in Goblin Village.	manual	quest
+Golem, The	manual	quest
+The Golem	manual	quest
+Gain access to the Carpet rides to Uzer.	manual	quest
+Grand Tree, The	manual	quest
+The Grand Tree	manual	quest
+Gain access to the Gnome Glider transportation.	manual	quest
+Great Brain Robbery, The	manual	quest
+The Great Brain Robbery	manual	quest
+Gain a Barrelchest Anchor.	manual	quest
+Grim Tales	manual	quest
+Grim Tales	manual	quest
+Hand in the Sand, The	manual	quest
+The Hand in the Sand	manual	quest
+Gain access to the Wizards' Guild Rune Shop.	manual	quest
+Haunted Mine	manual	quest
+Haunted Mine	manual	quest
+Gain a Salve Amulet.	manual	quest
+Hazeel Cult	manual	quest
+Hazeel Cult	manual	quest
+Gain the Carnillean armour.	manual	quest
+Heroes' Quest	manual	quest
+Heroes' Quest	manual	quest
+Learn how to wield Dragon Battleaxes and Maces.	manual	quest
+Holy Grail	manual	quest
+Holy Grail	manual	quest
+Gain great Prayer and Defence XP.	manual	quest
+Horror from the Deep	manual	quest
+Horror from the Deep	manual	quest
+Gain a God book.	manual	quest
+Icthlarin's Little Helper	manual	quest
+Icthlarin's Little Helper	manual	quest
+Gain access to Sophanem.	manual	quest
+Imp Catcher	manual	quest
+Imp Catcher	manual	quest
+Gain early game Magic XP.	manual	quest
+In Aid of the Myreque	manual	quest
+In Aid of the Myreque	manual	quest
+Gain access to the Temple Trekking minigame.	manual	quest
+In Search of Knowledge	manual	quest
+In Search of Knowledge	manual	quest
+Gain an XP Lamp.	manual	quest
+In Search of the Myreque	manual	quest
+In Search of the Myreque	manual	quest
+Start the Myreque storyline.	manual	quest
+Jungle Potion	manual	quest
+Jungle Potion	manual	quest
+Assist Trufitus Shakaya with his ritual.	manual	quest
+Kingdom Divided, A	manual	quest
+A Kingdom Divided	manual	quest
+Learn how to cast Resurrection spells.	manual	quest
+King's Ransom	manual	quest
+King's Ransom	manual	quest
+Learn how to use the Chivalry and Piety prayers.	manual	quest
+Knight's Sword, The	manual	quest
+The Knight's Sword	manual	quest
+Gain great Smithing XP.	manual	quest
+Lair of Tarn Razorlor	manual	quest
+Lair of Tarn Razorlor	manual	quest
+Gain an enchanted Salve Amulet.	manual	quest
+Legends' Quest	manual	quest
+Legends' Quest	manual	quest
+Gain access to the Legend's Guild.	manual	quest
+Lost City	manual	quest
+Lost City	manual	quest
+Gain access to Zanaris.	manual	quest
+Lost Tribe, The	manual	quest
+The Lost Tribe	manual	quest
+Gain access to the Bone Weapon Shop.	manual	quest
+Lunar Diplomacy	manual	quest
+Lunar Diplomacy	manual	quest
+Learn how to cast Lunar spells.	manual	quest
+Mage Arena I	manual	quest
+Mage Arena I	manual	quest
+Unlock the God spells.	manual	quest
+Mage Arena II	manual	quest
+Mage Arena II	manual	quest
+Learn how to imbue the God Capes.	manual	quest
+Making Friends with My Arm	manual	quest
+Making Friends with My Arm	manual	quest
+Gain great XP and a disease-free herb patch.	manual	quest
+Making History	manual	quest
+Making History	manual	quest
+Help Jorral restore a historic location.	manual	quest
+Merlin's Crystal	manual	quest
+Merlin's Crystal	manual	quest
+Assist King Arthur in Camelot.	manual	quest
+Misthalin Mystery	manual	quest
+Misthalin Mystery	manual	quest
+Monkey Madness I	manual	quest
+Monkey Madness I	manual	quest
+Learn how to wield Dragon Scimitars.	manual	quest
+Monkey Madness II	manual	quest
+Monkey Madness II	manual	quest
+Gain great XP and a Royal Seed Pod.	manual	quest
+Monk's Friend	manual	quest
+Monk's Friend	manual	quest
+Gain early game Woodcutting XP.	manual	quest
+Mountain Daughter	manual	quest
+Mountain Daughter	manual	quest
+Help the people of the Mountain Tribe.	manual	quest
+Mourning's End Part I	manual	quest
+Mourning's End Part I	manual	quest
+Gain great Hitpoint and Thieving XP.	manual	quest
+Mourning's End Part II	manual	quest
+Mourning's End Part II	manual	quest
+Learn how to craft Death Runes.	manual	quest
+Murder Mystery	manual	quest
+Murder Mystery	manual	quest
+Investigate a murder at Sinclair Mansion.	manual	quest
+My Arm's Big Adventure	manual	quest
+My Arm's Big Adventure	manual	quest
+Gain access to a disease-free herb patch.	manual	quest
+Nature Spirit	manual	quest
+Nature Spirit	manual	quest
+Gain access to Mort Myre and the Nature Altar.	manual	quest
+Night at the Theatre, A	manual	quest
+A Night at the Theatre	manual	quest
+Experience the Theatre of Blood.	manual	quest
+Observatory Quest	manual	quest
+Observatory Quest	manual	quest
+Gain an Unholy Symbol Mould.	manual	quest
+Olaf's Quest	manual	quest
+Olaf's Quest	manual	quest
+Gain access to the Brine Rat Cavern.	manual	quest
+One Small Favour	manual	quest
+One Small Favour	manual	quest
+Learn how to brew Guthix Rest Tea.	manual	quest
+Pirate's Treasure	manual	quest
+Pirate's Treasure	manual	quest
+Explore a story about buried treasure.	manual	quest
+Plague City	manual	quest
+Plague City	manual	quest
+Unlock the Ardougne teleport spell.	manual	quest
+Porcine of Interest, A	manual	quest
+A Porcine of Interest	manual	quest
+Learn how to hunt Slayer monsters.	manual	quest
+Priest in Peril	manual	quest
+Priest in Peril	manual	quest
+Gain access to Morytania.	manual	quest
+Prince Ali Rescue	manual	quest
+Prince Ali Rescue	manual	quest
+Unlock Sorceress's Garden and gain free use of the Al Kharid Gate.	manual	quest
+Queen of Thieves, The	manual	quest
+The Queen of Thieves	manual	quest
+Gain the Port Piscarilius Memoirs teleport.	manual	quest
+Rag and Bone Man I	manual	quest
+Rag and Bone Man I	manual	quest
+Assist the Odd Old Man with a collection.	manual	quest
+Rag and Bone Man II	manual	quest
+Rag and Bone Man II	manual	quest
+Further assist the Odd Old Man with a collection.	manual	quest
+Ratcatchers	manual	quest
+Ratcatchers	manual	quest
+Learn new cat training methods.	manual	quest
+Recipe for Disaster	manual	quest
+Recipe for Disaster	manual	quest
+Recruitment Drive	manual	quest
+Recruitment Drive	manual	quest
+Gain a set of Initiate Armour.	manual	quest
+Regicide	manual	quest
+Regicide	manual	quest
+Gain access to Zulrah's Shrine.	manual	quest
+Restless Ghost, The	manual	quest
+The Restless Ghost	manual	quest
+Gain a Ghostspeak Amulet.	manual	quest
+Romeo & Juliet	manual	quest
+Romeo & Juliet	manual	quest
+Gain Quest Points.	manual	quest
+Roving Elves	manual	quest
+Roving Elves	manual	quest
+Gain a Crystal Shield or Bow.	manual	quest
+Royal Trouble	manual	quest
+Royal Trouble	manual	quest
+Gain enhanced rewards from Miscellenia.	manual	quest
+Rum Deal	manual	quest
+Rum Deal	manual	quest
+Gain a Holy Wrench.	manual	quest
+Rune Mysteries	manual	quest
+Rune Mysteries	manual	quest
+Learn how to mine Rune Essence.	manual	quest
+Scorpion Catcher	manual	quest
+Scorpion Catcher	manual	quest
+Help Thormac with a scorpion problem.	manual	quest
+Sea Slug	manual	quest
+Sea Slug	manual	quest
+Gain access to the Fishing Platform.	manual	quest
+Shades of Mort'ton	manual	quest
+Shades of Mort'ton	manual	quest
+Gain access to the Shades of Mort'ton minigame.	manual	quest
+Shadow of the Storm	manual	quest
+Shadow of the Storm	manual	quest
+Assist Father Reen against an evil in the desert.	manual	quest
+Sheep Herder	manual	quest
+Sheep Herder	manual	quest
+Assist Councillor Halgrive with some sheep.	manual	quest
+Sheep Shearer	manual	quest
+Sheep Shearer	manual	quest
+Gain early game Crafting XP.	manual	quest
+Shield of Arrav	manual	quest
+Shield of Arrav	manual	quest
+Investigate the whereabouts of the Shield of Arrav.	manual	quest
+Shilo Village	manual	quest
+Shilo Village	manual	quest
+Gain access to Shilo Village.	manual	quest
+Sins of the Father	manual	quest
+Sins of the Father	manual	quest
+Gain access to Darkmeyer.	manual	quest
+Skippy and the Mogres	manual	quest
+Skippy and the Mogres	manual	quest
+Learn how to fight Mogres.	manual	quest
+Slug Menace, The	manual	quest
+The Slug Menace	manual	quest
+Learn how to equip Proselyte Armour.	manual	quest
+Song of the Elves	manual	quest
+Song of the Elves	manual	quest
+Gain access to Prifddinas.	manual	quest
+Soul's Bane, A	manual	quest
+A Soul's Bane	manual	quest
+Help Launa find her family.	manual	quest
+Spirits of the Elid	manual	quest
+Spirits of the Elid	manual	quest
+Gain access to Nardah's fountain and shrine.	manual	quest
+Swan Song	manual	quest
+Swan Song	manual	quest
+Learn how to catch Monkfish.	manual	quest
+Tai Bwo Wannai Trio	manual	quest
+Tai Bwo Wannai Trio	manual	quest
+Learn how to catch and cook Karambwan.	manual	quest
+Tail of Two Cats, A	manual	quest
+A Tail of Two Cats	manual	quest
+Tale of the Righteous	manual	quest
+Tale of the Righteous	manual	quest
+Gain the Shayzien Memoirs teleport.	manual	quest
+Taste of Hope, A	manual	quest
+A Taste of Hope	manual	quest
+Gain Drakan's Medallion.	manual	quest
+Tears of Guthix	manual	quest
+Tears of Guthix	manual	quest
+Gain access to the Tears of Guthix minigame.	manual	quest
+Temple of Ikov	manual	quest
+Temple of Ikov	manual	quest
+Throne of Miscellania	manual	quest
+Throne of Miscellania	manual	quest
+Learn how to manage the Kingdom of Miscellania.	manual	quest
+Tourist Trap, The	manual	quest
+The Tourist Trap	manual	quest
+Learn how to smith Darts.	manual	quest
+Tower of Life	manual	quest
+Tower of Life	manual	quest
+Gain access to the Creature Creation minigame.	manual	quest
+Tree Gnome Village	manual	quest
+Tree Gnome Village	manual	quest
+Gain access to Spirit Tree teleportation.	manual	quest
+Tribal Totem	manual	quest
+Tribal Totem	manual	quest
+Troll Romance	manual	quest
+Troll Romance	manual	quest
+Gain a Sled.	manual	quest
+Troll Stronghold	manual	quest
+Troll Stronghold	manual	quest
+Gain access to the God Wars Dungeon.	manual	quest
+Underground Pass	manual	quest
+Underground Pass	manual	quest
+Gain Iban's Staff.	manual	quest
+Vampyre Slayer	manual	quest
+Vampyre Slayer	manual	quest
+Help the people of Draynor Village with a vampyre problem.	manual	quest
+Wanted!	manual	quest
+Wanted!	manual	quest
+Gain access to the White Knight Armoury.	manual	quest
+Watchtower	manual	quest
+Watchtower	manual	quest
+Unlock the Watchtower teleport spell.	manual	quest
+Waterfall Quest	manual	quest
+Waterfall Quest	manual	quest
+Gain great combat XP.	manual	quest
+What Lies Below	manual	quest
+What Lies Below	manual	quest
+Learn a shortcut to the Chaos Altar.	manual	quest
+Witch's House	manual	quest
+Witch's House	manual	quest
+Witch's Potion	manual	quest
+Witch's Potion	manual	quest
+Gain early game Magic XP.	manual	quest
+X Marks the Spot	manual	quest
+X Marks the Spot	manual	quest
+Learn about Clue Scrolls and Kourend.	manual	quest
+Zogre Flesh Eaters	manual	quest
+Zogre Flesh Eaters	manual	quest
+Learn how to make Relicym's Balm.	manual	quest
+Frozen Door, The	manual	quest
+The Frozen Door	manual	quest
+Gain access to Nex in the God Wars Dungeon.	manual	quest
+Land of the Goblins	manual	quest
+Land of the Goblins	manual	quest
+Continue the Dorgeshuun storyline.	manual	quest
+Hopespear's Will	manual	quest
+Hopespear's Will	manual	quest
+Gain great Prayer XP.	manual	quest
+Temple of the Eye	manual	quest
+Temple of the Eye	manual	quest
+Gain access to the Guardians of the Rift minigame.	manual	quest
+Beneath Cursed Sands	manual	quest
+Beneath Cursed Sands	manual	quest
+Gain access to the Tombs of Amascut.	manual	quest
+Sleeping Giants	manual	quest
+Sleeping Giants	manual	quest
+Gain access to the Giants' Foundry.	manual	quest
+Garden of Death, The	manual	quest
+The Garden of Death	manual	quest
+Uncover the fate of the Old Ones.	manual	quest
+Into the Tombs	manual	quest
+Into the Tombs	manual	quest
+Experience the Tombs of Amascut.	manual	quest
+Recipe for Disaster Another Cook's Quest	manual	quest
+Recipe for Disaster - Another Cook's Quest	manual	quest
+Gain access to the Culinaromancer's Chest.	manual	quest
+Recipe for Disaster Dwarf	manual	quest
+Recipe for Disaster - Mountain Dwarf	manual	quest
+Gain further access to the Culinaromancer's Chest.	manual	quest
+Recipe for Disaster Goblins	manual	quest
+Recipe for Disaster - Wartface & Bentnoze	manual	quest
+Gain further access to the Culinaromancer's Chest.	manual	quest
+Recipe for Disaster Pirate	manual	quest
+Recipe for Disaster - Pirate Pete	manual	quest
+Gain further access to the Culinaromancer's Chest.	manual	quest
+Recipe for Disaster Lumbridge Guide	manual	quest
+Recipe for Disaster - Lumbridge Guide	manual	quest
+Gain further access to the Culinaromancer's Chest.	manual	quest
+Recipe for Disaster Dave	manual	quest
+Recipe for Disaster - Evil Dave	manual	quest
+Gain further access to the Culinaromancer's Chest.	manual	quest
+Recipe for Disaster Uglogwee	manual	quest
+Recipe for Disaster - Skrach Uglogwee	manual	quest
+Gain further access to the Culinaromancer's Chest.	manual	quest
+Recipe for Disaster Amik Varze	manual	quest
+Recipe for Disaster - Sir Amik Varze	manual	quest
+Gain further access to the Culinaromancer's Chest.	manual	quest
+Recipe for Disaster Awowogei	manual	quest
+Recipe for Disaster - King Awowogei	manual	quest
+Gain further access to the Culinaromancer's Chest.	manual	quest
+Recipe for Disaster Culinaromancer	manual	quest
+Recipe for Disaster - Culinaromancer	manual	quest
+Complete the storyline and unlock the Barrows Gloves.	manual	quest
+Secrets of the North	manual	quest
+Secrets of the North	manual	quest
+Uncover the Secrets of the North and unlock a new boss.	manual	quest
+Desert Treasure II - The Fallen Empire	manual	quest
+Desert Treasure II - The Fallen Empire	manual	quest
+Uncover the history of the Fallen Empire and unlock four new bosses.	manual	quest
+His Faithful Servants	manual	quest
+His Faithful Servants	manual	quest
+Take on the Barrows Brothers.	manual	quest
+Path of Glouphrie, The	manual	quest
+The Path of Glouphrie	manual	quest
+Unlock the Poison Waste Dungeon.	manual	quest
+Children of the Sun	manual	quest
+Children of the Sun	manual	quest
+Gain access to the Kingdom of Varlamore.	manual	quest
+Barbarian Training	manual	quest
+Barbarian Training	manual	quest
+Unlock the strength of a Barbarian.	manual	quest
+Defender of Varrock	manual	quest
+Defender of Varrock	manual	quest
+Defend Varrock from a zombie invasion.	manual	quest
+While Guthix Sleeps	manual	quest
+While Guthix Sleeps	manual	quest
+Stop a deadly Mahjarrat from finding an artefact of incomprehensible power.	manual	quest
+Twilight's Promise	manual	quest
+Twilight's Promise	manual	quest
+Take your first steps into Varlamore and unlock the Quetzal Transport System.	manual	quest
+At First Light	manual	quest
+At First Light	manual	quest
+Learn about the role of the Hunter Guild and unlock higher tier rumours.	manual	quest
+Perlious Moons	manual	quest
+Perilous Moons	manual	quest
+Explore an ancient ruin and unlock the Moons of Peril.	manual	quest
+Ribbiting Tale of a Lily Pad Labour Dispute, The	manual	quest
+The Ribbiting Tale of a Lily Pad Labour Dispute	manual	quest
+Solve a ribbiting dispute and gain access to a new Hardwood Farming Patch.

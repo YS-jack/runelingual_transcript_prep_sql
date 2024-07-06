@@ -1,0 +1,236 @@
+english	category	sub_category
+Monkeys	manual	slayer_reward
+Goblins	manual	slayer_reward
+Rats	manual	slayer_reward
+Spiders	manual	slayer_reward
+Birds	manual	slayer_reward
+Cows	manual	slayer_reward
+Scorpions	manual	slayer_reward
+Bats	manual	slayer_reward
+Wolves	manual	slayer_reward
+Zombies	manual	slayer_reward
+Skeletons	manual	slayer_reward
+Ghosts	manual	slayer_reward
+Bears	manual	slayer_reward
+HillGiants	manual	slayer_reward
+IceGiants	manual	slayer_reward
+FireGiants	manual	slayer_reward
+MossGiants	manual	slayer_reward
+Trolls	manual	slayer_reward
+IceWarriors	manual	slayer_reward
+Ogres	manual	slayer_reward
+Hobgoblins	manual	slayer_reward
+Dogs	manual	slayer_reward
+Ghouls	manual	slayer_reward
+GreenDragons	manual	slayer_reward
+BlueDragons	manual	slayer_reward
+RedDragons	manual	slayer_reward
+BlackDragons	manual	slayer_reward
+LesserDemons	manual	slayer_reward
+GreaterDemons	manual	slayer_reward
+BlackDemons	manual	slayer_reward
+Hellhounds	manual	slayer_reward
+ShadowWarriors	manual	slayer_reward
+Werewolves	manual	slayer_reward
+Vampyres	manual	slayer_reward
+Dagannoth	manual	slayer_reward
+Turoth	manual	slayer_reward
+CaveCrawlers	manual	slayer_reward
+Banshees	manual	slayer_reward
+CrawlingHands	manual	slayer_reward
+InfernalMages	manual	slayer_reward
+AberrantSpectres	manual	slayer_reward
+AbyssalDemons	manual	slayer_reward
+Basilisks	manual	slayer_reward
+Cockatrice	manual	slayer_reward
+Kurask	manual	slayer_reward
+Gargoyles	manual	slayer_reward
+Pyrefiends	manual	slayer_reward
+Bloodveld	manual	slayer_reward
+DustDevils	manual	slayer_reward
+Jellies	manual	slayer_reward
+Rockslugs	manual	slayer_reward
+Nechryael	manual	slayer_reward
+Kalphite	manual	slayer_reward
+EarthWarriors	manual	slayer_reward
+OtherworldlyBeings	manual	slayer_reward
+Elves	manual	slayer_reward
+Dwarves	manual	slayer_reward
+BronzeDragons	manual	slayer_reward
+IronDragons	manual	slayer_reward
+SteelDragons	manual	slayer_reward
+WallBeasts	manual	slayer_reward
+CaveSlimes	manual	slayer_reward
+CaveBugs	manual	slayer_reward
+Shades	manual	slayer_reward
+Crocodiles	manual	slayer_reward
+DarkBeasts	manual	slayer_reward
+Mogres	manual	slayer_reward
+Lizards	manual	slayer_reward
+FeverSpiders	manual	slayer_reward
+HarpieBugSwarms	manual	slayer_reward
+SeaSnakes	manual	slayer_reward
+FossilIslandWyverns	manual	slayer_reward
+SkeletalWyverns	manual	slayer_reward
+Killerwatts	manual	slayer_reward
+MutatedZygomites	manual	slayer_reward
+Icefiends	manual	slayer_reward
+Minotaurs	manual	slayer_reward
+Fleshcrawlers	manual	slayer_reward
+Catablepon	manual	slayer_reward
+Ankou	manual	slayer_reward
+CaveHorrors	manual	slayer_reward
+JungleHorrors	manual	slayer_reward
+Goraks	manual	slayer_reward
+Suqahs	manual	slayer_reward
+BrineRats	manual	slayer_reward
+MinionsofScabaras	manual	slayer_reward
+TerrorDogs	manual	slayer_reward
+Molanisks	manual	slayer_reward
+Waterfiends	manual	slayer_reward
+SpiritualCreatures	manual	slayer_reward
+Lizardmen	manual	slayer_reward
+MagicAxes	manual	slayer_reward
+MithrilDragons	manual	slayer_reward
+AdamantDragons	manual	slayer_reward
+RuneDragons	manual	slayer_reward
+Aviansies	manual	slayer_reward
+CaveKraken	manual	slayer_reward
+SmokeDevils	manual	slayer_reward
+TzHaar	manual	slayer_reward
+TzTok-Jad	manual	slayer_reward
+Bosses	manual	slayer_reward
+Mammoths	manual	slayer_reward
+Rogues	manual	slayer_reward
+Ents	manual	slayer_reward
+Bandits	manual	slayer_reward
+DarkWarriors	manual	slayer_reward
+LavaDragons	manual	slayer_reward
+TzKal-Zuk	manual	slayer_reward
+Revenants	manual	slayer_reward
+ChaosDruids	manual	slayer_reward
+Wyrms	manual	slayer_reward
+Drakes	manual	slayer_reward
+Hydras	manual	slayer_reward
+BrutalBlackDragons	manual	slayer_reward
+SulphurLizards	manual	slayer_reward
+TempleSpiders	manual	slayer_reward
+UndeadDruids	manual	slayer_reward
+SandCrabs	manual	slayer_reward
+BlackKnights	manual	slayer_reward
+Pirates	manual	slayer_reward
+Sourhogs	manual	slayer_reward
+WarpedCreatures	manual	slayer_reward
+LesserNagua	manual	slayer_reward
+
+Gargoyle Smasher	manual	slayer_reward
+Slug Salter	manual	slayer_reward
+Reptile Freezer	manual	slayer_reward
+'Shroom Sprayer	manual	slayer_reward
+Malevolent Masquerade	manual	slayer_reward
+Ring Bling	manual	slayer_reward
+Broader Fletching	manual	slayer_reward
+Need More Darkness	manual	slayer_reward
+Ankou Very Much	manual	slayer_reward
+Suq-a-nother One	manual	slayer_reward
+Fire & Darkness	manual	slayer_reward
+Pedal to the Metals	manual	slayer_reward
+Spiritual Fervour	manual	slayer_reward
+Augment My Abbies	manual	slayer_reward
+It's Dark in Here	manual	slayer_reward
+Greater Challenge	manual	slayer_reward
+Seeing Red	manual	slayer_reward
+I Hope You Mith Me	manual	slayer_reward
+Watch the Birdie	manual	slayer_reward
+Hot Stuff	manual	slayer_reward
+Like a Boss	manual	slayer_reward
+Bleed Me Dry	manual	slayer_reward
+Smell Ya Later	manual	slayer_reward
+Birds of a Feather	manual	slayer_reward
+I Really Mith You	manual	slayer_reward
+Horrorific	manual	slayer_reward
+To Dust You Shall Return	manual	slayer_reward
+Wyver-nother one	manual	slayer_reward
+Get Smashed	manual	slayer_reward
+Nechs Please	manual	slayer_reward
+Krack On	manual	slayer_reward
+Reptile Got Ripped	manual	slayer_reward
+King Black Bonnet	manual	slayer_reward
+Kalphite Khat	manual	slayer_reward
+Unholy Helmet	manual	slayer_reward
+Dark Mantle	manual	slayer_reward
+Bigger and Badder	manual	slayer_reward
+Get Scabaright on It	manual	slayer_reward
+Duly Noted	manual	slayer_reward
+Wyver-nother Two	manual	slayer_reward
+Ada'mind Some More	manual	slayer_reward
+RUUUUUNE	manual	slayer_reward
+Undead Head	manual	slayer_reward
+Stop the Wyvern	manual	slayer_reward
+Double Trouble	manual	slayer_reward
+Use More Head	manual	slayer_reward
+Basilonger	manual	slayer_reward
+Basilocked	manual	slayer_reward
+Twisted Vision	manual	slayer_reward
+More at Stake	manual	slayer_reward
+Actual Vampyre Slayer	manual	slayer_reward
+Task Storage	manual	slayer_reward
+I Wildy More Slayer	manual	slayer_reward
+Revenenenenenants	manual	slayer_reward
+Warped Reality	manual	slayer_reward
+
+Automatically smash Gargoyles when they're on critical health, if you have the right tool.	manual	slayer_reward
+Automatically salt Rockslugs when they're on critical health, if you have salt.	manual	slayer_reward
+Automatically freeze Desert Lizards when they're on critical health, if you have ice water.	manual	slayer_reward
+Automatically spray Mutated Zygomites when they're on critical health, if you have fungicide.	manual	slayer_reward
+Learn to combine the protective Slayer headgear and Slayer gem into one universal helmet, with level 55 Crafting.	manual	slayer_reward
+Learn to craft your own Slayer Rings, with level 75 Crafting.	manual	slayer_reward
+Learn to fletch broad arrows (with level 52 Fletching), broad bolts (with level 55 Fletching) and amethyst broad bolts (with level 76 Fletching).	manual	slayer_reward
+Whenever you get a Dark Beast task, it will be a bigger task.	manual	slayer_reward
+Whenever you get an Ankou task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Suqah task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Black Dragon task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Bronze, Iron or Steel Dragon task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Spiritual Creature task, it will be a bigger task.	manual	slayer_reward
+Whenever you get an Abyssal Demon task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Black Demon task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Greater Demon task, it will be a bigger task.	manual	slayer_reward
+Konar, Duradel and Nieve will be able to assign Red Dragons as your task.	manual	slayer_reward
+Konar, Duradel and Nieve will be able to assign Mithril Dragons as your task.	manual	slayer_reward
+Konar, Duradel, Nieve, Chaeldar and Krystilia will be able to assign Aviansies as your task.	manual	slayer_reward
+Duradel, Nieve and Chaeldar will be able to assign TzHaar as your task. You may also be offered a chance to slay TzTok-Jad or TzKal-Zuk.	manual	slayer_reward
+Konar, Duradel, Nieve and Krystilia will be able to assign boss monsters as your task. They will choose which boss you must kill.	manual	slayer_reward
+Whenever you get a Bloodveld task, it will be a bigger task.	manual	slayer_reward
+Whenever you get an Aberrant Spectre task, it will be a bigger task.	manual	slayer_reward
+Whenever you get an Aviansie task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Mithril Dragon task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Cave Horror task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Dust Devil task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Skeletal Wyvern task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Gargoyle task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Nechryael task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Cave Kraken task, it will be a bigger task.	manual	slayer_reward
+Konar, Duradel, Nieve and Chaeldar will be able to assign you Lizardmen.	manual	slayer_reward
+Learn how to combine a KBD head with your Slayer helmet to colour it black.	manual	slayer_reward
+Learn how to combine a Kalphite Queen head with your Slayer helmet to colour it green.	manual	slayer_reward
+Learn how to combine an Abyssal Demon head with your Slayer helmet to colour it red.	manual	slayer_reward
+Learn how to combine a Dark Claw with your Slayer helmet to colour it purple.	manual	slayer_reward
+Increase the risk against certain Slayer monsters with the chance of a superior version spawning whilst on a Slayer task.	manual	slayer_reward
+Whenever you get a Scabarite task, it will be a bigger task.	manual	slayer_reward
+Mithril Dragons drop mithril bars in banknote form while killed on assignment.	manual	slayer_reward
+Whenever you get a Fossil Island Wyvern task, it will be a bigger task.	manual	slayer_reward
+Whenever you get an Adamant Dragon task, it will be a bigger task.	manual	slayer_reward
+Whenever you get a Rune Dragon task, it will be a bigger task.	manual	slayer_reward
+Learn how to combine Vorkath's head with your Slayer helmet to colour it turquoise.	manual	slayer_reward
+Stops you getting Fossil Island Wyvern tasks, without counting towards your blocked task limit.	manual	slayer_reward
+Slaying Dusk and Dawn now counts for two kills towards your task rather than one.	manual	slayer_reward
+Learn how to combine a Hydra head with your Slayer helmet to theme it like the Alchemical Hydra.	manual	slayer_reward
+Whenever you get a Basilisk task, it will be a bigger task.	manual	slayer_reward
+Konar, Duradel and Nieve will be able to assign Basilisks as your task.	manual	slayer_reward
+Learn how to combine Twisted Horns with your Slayer helmet to theme it like the Great Olm.	manual	slayer_reward
+Whenever you get a Vampyre task, it will be a bigger task.	manual	slayer_reward
+Konar, Duradel, Nieve and Chaeldar will be able to assign Vampyres as your task.	manual	slayer_reward
+Gain the ability to store your task, allowing you to take it at a later point in time.	manual	slayer_reward
+Krystilia will be able to assign Jellies, Dust Devils, Nechryaels and Abyssal Demons as your task.	manual	slayer_reward
+Whenever you get a Revenants task, it will be a bigger task.	manual	slayer_reward
+Konar, Duradel, Nieve and Chaeldar will be able to assign Warped Creatures as your task.	manual	slayer_reward

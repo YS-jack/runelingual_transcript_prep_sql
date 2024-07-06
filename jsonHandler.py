@@ -1,3 +1,4 @@
+import os
 import json
 import sqlite3
 import common
@@ -191,5 +192,22 @@ def dictListToSQL(dict_data,
     conn.commit()
     
 
+def addAllTSVToSQL(csvDir):
+    conn, c = connect_to_db(common.DATABASE_PATH)
+    # iterate through all csv files in the directory
+    for file in os.listdir(csvDir):
+        # open each files
+        with open(csvDir + file, 'r') as f:
+            for i,line in enumerate(f):
+                line = line.strip().split('\t')
+                if i == 0: # the first line is the column names
+                    column_names = line
+                else: # the rest of the lines are records
+                    record = {key : value for key, value in zip(column_names, line)}
+                    insert_record(c, record)
+    conn.commit()
+    print("Added all manually created CSV files to SQL")
+
 if __name__ == "__main__":
-    jsonFileToSQL(common.CACHE_UPDATED_PATH)
+    #jsonFileToSQL(common.CACHE_UPDATED_PATH)
+    addAllTSVToSQL(common.CSV_FILE_DIR)

@@ -1,0 +1,185 @@
+english	category	sub_category
+Rimmington	manual	location
+Taverley	manual	location
+Pollnivneach	manual	location
+Rellekka	manual	location
+Brimhaven	manual	location
+Yanille	manual	location
+Hosidius	manual	location
+Prifddinas	manual	location
+Ardougne	manual	location
+Desert	manual	location
+Falador	manual	location
+Fremennik	manual	location
+Kandarin	manual	location
+Karamja	manual	location
+Lumbridge & Draynor	manual	location
+Morytania	manual	location
+Varrock	manual	location
+Western Provinces	manual	location
+Wilderness	manual	location
+Kourend & Kebos	manual	location
+Shayzien	manual	location
+Hosidius	manual	location
+Arceuus	manual	location
+Lovakengj	manual	location
+Piscarilius	manual	location
+Al Kharid	manual	location
+Arceuus	manual	location
+Ardougne	manual	location
+Brimhaven	manual	location
+Burgh de Rott	manual	location
+Burthorpe	manual	location
+Canifis	manual	location
+Kharidian Desert	manual	location
+Dorgesh-Kaan	manual	location
+Draynor Village	manual	location
+Entrana	manual	location
+Falador	manual	location
+Feldip Hills	manual	location
+Gnome Stronghold	manual	location
+Goblin Village	manual	location
+Hosidius	manual	location
+Isafdar	manual	location
+Kebos Lowlands	manual	location
+Keldagrim	manual	location
+Kingstown	manual	location
+Lletya	manual	location
+Lovakengj	manual	location
+Lumbridge	manual	location
+Lunar Isle	manual	location
+Meiyerditch	manual	location
+Miscellania	manual	location
+Mort'ton	manual	location
+Mos Le'Harmless	manual	location
+Nardah	manual	location
+Port Phasmatys	manual	location
+Port Piscarilius	manual	location
+Piscatoris	manual	location
+Port Sarim	manual	location
+Rellekka	manual	location
+Rimmington	manual	location
+Seers' Village	manual	location
+Shayzien	manual	location
+Shilo Village	manual	location
+Silvarea	manual	location
+Slepe	manual	location
+Sophanem	manual	location
+Tai Bwo Wannai	manual	location
+Taverley	manual	location
+Tree Gnome Village	manual	location
+Troll Stronghold	manual	location
+Varrock	manual	location
+Wilderness	manual	location
+Witchaven	manual	location
+Yanille	manual	location
+Civitas illa Fortis	manual	location
+Avium Savannah	manual	location
+Slayer Tower	manual	location
+Catacombs of Kourend	manual	location
+Stronghold Slayer Dungeon	manual	location
+Karuulm Slayer Dungeon	manual	location
+Chasm of Fire	manual	location
+Brimhaven Dungeon	manual	location
+Taverley Dungeon	manual	location
+Witchaven Dungeon	manual	location
+Waterfall Dungeon	manual	location
+God Wars Dungeon	manual	location
+Kalphite Lair	manual	location
+task-only Kalphite Cave	manual	location
+Kraken Cove	manual	location
+Waterbirth Island	manual	location
+Lizardman Canyon	manual	location
+Lizardman Settlement	manual	location
+Smoke Devil Dungeon	manual	location
+Death Plateau	manual	location
+Troll Stronghold	manual	location
+Keldagrim	manual	location
+South of Mount Quidamortem	manual	location
+Fremennik Slayer Dungeon	manual	location
+Myths' Guild Dungeon	manual	location
+Mourner Tunnels	manual	location
+Lithkren Vault	manual	location
+Ancient Cavern	manual	location
+Stronghold of Security	manual	location
+Fossil Island	manual	location
+Asgarnian Ice Dungeon	manual	location
+Ogre Enclave	manual	location
+Brine Rat Cavern	manual	location
+Zanaris	manual	location
+In the Lighthouse	manual	location
+Smoke Dungeon	manual	location
+Evil Chicken's Lair	manual	location
+The Abyss	manual	location
+Molch	manual	location
+Kebos Swamp	manual	location
+The Battlefront	manual	location
+Forthos Dungeon	manual	location
+Iorwerth Dungeon	manual	location
+Jormungand's Prison	manual	location
+Darkmeyer	manual	location
+Slepe	manual	location
+Meiyerditch Laboratories	manual	location
+Isle of Souls	manual	location
+Giants' Den	manual	location
+Fremennik Isles	manual	location
+Poison Waste Dungeon	manual	location
+Neypotzli	manual	location
+The Teomat	manual	location
+Sunset Coast	manual	location
+Hunter Guild	manual	location
+Cam Torum Entrance	manual	location
+Colossal Wyrm Remains	manual	location
+Outer Fortis	manual	location
+Fortis Colosseum	manual	location
+Ice Mountain	manual	location
+Corsair Cove	manual	location
+Shayzien Graveyard of Heroes	manual	location
+Southern coast of Hosidius	manual	location
+Draynor Manor cellar	manual	location
+Wizards' Tower	manual	location
+Ardougne Rat Pits	manual	location
+The Kendal's cave	manual	location
+Smoke Devil Dungeon	manual	location
+Zanaris	manual	location
+Ruins of Uzer	manual	location
+Brimhaven Dungeon	manual	location
+Crabclaw Caves or Waterbirth Island Dungeon	manual	location
+Chaos Altar	manual	location
+Wyvern Cave on Fossil Island	manual	location
+Trollweiss Mountain	manual	location
+Death Altar	manual	location
+Mos Le'Harmless Cave	manual	location
+Coronation ceremony during A Kingdom Divided.	manual	location
+Fight with the Giant Roc during My Arm's Big Adventure.	manual	location
+Scorpia's cave beneath the Scorpion Pit.	manual	location
+Crabclaw Caves or Waterbirth Island Dungeon	manual	location
+Darkmeyer	manual	location
+Beneath Cursed Sands	manual	location
+Perilous Moons	manual	location
+PvP Arena	manual	location
+Castle Wars	manual	location
+Ferox Enclave	manual	location
+Warrior's Guild	manual	location
+Champion's Guild 	manual	location
+Monestery	manual	location
+Ranging Guild	manual	location
+Miscellania	manual	location
+Grand Exchange	manual	location
+Falador Park	manual	location
+Dondakan's Rock	manual	location
+Burthorpe	manual	location
+Barbarian Outpost	manual	location
+Corporeal Beast	manual	location
+Tears of Guthix	manual	location
+Wintertodt Camp	manual	location
+Fishing Guild	manual	location
+Mining Guild	manual	location
+Crafting Guild	manual	location
+Cooking Guild	manual	location
+Woodcutting Guild	manual	location
+Farming Guild	manual	location
+Edgeville	manual	location
+Karamja	manual	location
+Draynor Village	manual	location
+Al Kharid	manual	location

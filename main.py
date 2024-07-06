@@ -20,6 +20,9 @@ def main():
     wiki_data = webScraper.scrape_wiki()
     jsonHandler.dictListToSQL(wiki_data, [common.COLUMN_NAME_ENGLISH, common.COLUMN_NAME_CATEGORY, 
                                           common.COLUMN_NAME_SUB_CATEGORY, common.COLUMN_NAME_SOURCE])
+    
+    #add manual data
+    jsonHandler.addAllTSVToSQL(common.CSV_FILE_DIR)
 
 if __name__ == "__main__":
     main()

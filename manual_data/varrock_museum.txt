@@ -1,0 +1,86 @@
+english	category	sub_category
+Discover an old coin.	manual	varrock_museum
+Discover an ancient coin.	manual	varrock_museum
+Discover an ancient symbol.	manual	varrock_museum
+Discover an old symbol.	manual	varrock_museum
+Discover pottery remains.	manual	varrock_museum
+Learn about dragons.	manual	varrock_museum
+Learn about wyvern.	manual	varrock_museum
+Learn about tortoise.	manual	varrock_museum
+Learn about lizard.	manual	varrock_museum
+Learn about leech.	manual	varrock_museum
+Learn about camel.	manual	varrock_museum
+Learn about mole.	manual	varrock_museum
+Learn about penguin.	manual	varrock_museum
+Learn about terrorbird.	manual	varrock_museum
+Learn about kalphite.	manual	varrock_museum
+Learn about monkey.	manual	varrock_museum
+Learn about seaslug.	manual	varrock_museum
+Learn about snake.	manual	varrock_museum
+Learn about snail.	manual	varrock_museum
+Uncover knowledge about the Staff of Armadyl.	manual	varrock_museum
+Reveal further knowledge about the Staff of Armadyl.	manual	varrock_museum
+Return the Shield of Arrav to the museum.	manual	varrock_museum
+Provide a diagram of the Observatory to the museum.	manual	varrock_museum
+Provide information about King Arthur to the museum.	manual	varrock_museum
+Describe Silverlight for a museum display.	manual	varrock_museum
+Give information about the Gnome gliders to the museum.	manual	varrock_museum
+Uncover information about Bob the cat.	manual	varrock_museum
+Discover knowledge about King Lathas and his ancestors.	manual	varrock_museum
+Provide information about the River Salve.	manual	varrock_museum
+Uncover further information about the River Salve.	manual	varrock_museum
+Delve into the story of the Carnillean family.	manual	varrock_museum
+Find out about the cult of chaos mages near Varrock.	manual	varrock_museum
+Uncover the secrets of runecrafting.	manual	varrock_museum
+Discover the secrets of the Shield of Arrav.	manual	varrock_museum
+Build the mermaid display.	manual	varrock_museum
+Build the pufferfish display.	manual	varrock_museum
+Build the hoopsnake display.	manual	varrock_museum
+Build the wyvern egg display.	manual	varrock_museum
+Build the fossil crab display.	manual	varrock_museum
+Build the fossil fuel display.	manual	varrock_museum
+Build the footprint display.	manual	varrock_museum
+Build the ancient zygomite display.	manual	varrock_museum
+Build the clamshell display.	manual	varrock_museum
+Build the unicorn footprint display.	manual	varrock_museum
+Build the imprint display.	manual	varrock_museum
+Build the cave painting display.	manual	varrock_museum
+Build the biclopse display.	manual	varrock_museum
+Build the wyvern skull display.	manual	varrock_museum
+Build the lobstrosity display.	manual	varrock_museum
+Build the tar thing display.	manual	varrock_museum
+Build the merfsh display.	manual	varrock_museum
+Build the twocan display.	manual	varrock_museum
+Build the terror snail display.	manual	varrock_museum
+Build the mushtoise display.	manual	varrock_museum
+Build the sharkbeast display.	manual	varrock_museum
+Build the mushroo display.	manual	varrock_museum
+Build the sabre toothed squirrel display.	manual	varrock_museum
+Build the mandibular display.	manual	varrock_museum
+Build the dragonfly display.	manual	varrock_museum
+Build the lava beast display.	manual	varrock_museum
+Build part of the leviathan display.	manual	varrock_museum
+Build part of the leviathan display.	manual	varrock_museum
+Build part of the leviathan display.	manual	varrock_museum
+Build part of the leviathan display.	manual	varrock_museum
+Build part of the leviathan display.	manual	varrock_museum
+Build the mushtree display.	manual	varrock_museum
+Build the pitcher display.	manual	varrock_museum
+Build the skroom display.	manual	varrock_museum
+Build the spineplant display.	manual	varrock_museum
+Build the mushroom display.	manual	varrock_museum
+Hand in an Ancient globe.	manual	varrock_museum
+Hand in an Ancient ledger.	manual	varrock_museum
+Hand in an Ancient astroscope.	manual	varrock_museum
+Hand in an Ancient treatise.	manual	varrock_museum
+Hand in an Ancient carcanet.	manual	varrock_museum
+Digsite Finds	manual	varrock_museum
+Natural History Displays	manual	varrock_museum
+Timeline Displays	manual	varrock_museum
+Fossil Island Displays	manual	varrock_museum
+Camdozaal Relics	manual	varrock_museum
+Clean finds from the Digsite on the tables in the museum and place them in their cases.	manual	varrock_museum
+Examine the displays in the Natural History section of the museum and answer Orlando Smith's quiz.	manual	varrock_museum
+Gather information from around Gielinor by completing quests and other activities, then speak to Historian Minas.	manual	varrock_museum
+Discover fossils on fossil island to complete the displays on the bottom floor of the museum.	manual	varrock_museum
+Crush Barronite deposits in the ruins of Camdozaal to find relics and hand them in to the curator.	manual	varrock_museum

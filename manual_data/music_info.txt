@@ -1,0 +1,307 @@
+english	category	sub_category
+Vision	manual	music
+Vision	manual	music
+at the Wizards' Tower.	manual	music
+Volcanic Vikings	manual	music
+Volcanic Vikings	manual	music
+on Neitiznot.	manual	music
+Voodoo Cult	manual	music
+Voodoo Cult	manual	music
+during the Legends' Quest.	manual	music
+Voyage	manual	music
+Voyage	manual	music
+at Baxtorian Falls.	manual	music
+Waiting Game, The	manual	music
+The Waiting Game	manual	music
+in the Soul Wars lobby.	manual	music
+Waking Dream	manual	music
+Waking Dream	manual	music
+during the Lunar Diplomacy quest.	manual	music
+Wally the Hero	manual	music
+Wally the Hero	manual	music
+during the Demon Slayer quest.	manual	music
+Wander	manual	music
+Wander	manual	music
+in Draynor Village.	manual	music
+Warpath	manual	music
+Warpath	manual	music
+during the Clan Wars minigame.	manual	music
+Song of the Elves	manual	music
+Song of the Elves	manual	music
+during the Song of the Elves quest.	manual	music
+What Happens Below...	manual	music
+What Happens Below...	manual	music
+in the Warrens.	manual	music
+Warrior	manual	music
+Warrior	manual	music
+during The Fremennik Trials quest.	manual	music
+Warriors' Guild	manual	music
+Warriors' Guild	manual	music
+at the Warriors' Guild.	manual	music
+Doors of Dinh, The	manual	music
+The Doors of Dinh	manual	music
+in the Northern Tundras.	manual	music
+Waterfall	manual	music
+Waterfall	manual	music
+at the Baxtorian Falls.	manual	music
+Waterlogged	manual	music
+Waterlogged	manual	music
+in Mort Myre Swamp.	manual	music
+Way of the Enchanter	manual	music
+Way of the Enchanter	manual	music
+in the Lunar Isle mine.	manual	music
+Way of the Wyrm	manual	music
+Way of the Wyrm	manual	music
+in the Karuulm Slayer Dungeon.	manual	music
+Wayward	manual	music
+Wayward	manual	music
+in the Jiggig dungeon.	manual	music
+We are the Fairies	manual	music
+We are the Fairies	manual	music
+during the Fairytale II - Cure a Queen quest.	manual	music
+Lumbering	manual	music
+Lumbering	manual	music
+in Weiss.	manual	music
+Well of Voyage	manual	music
+Well of Voyage	manual	music
+during the Regicide quest.	manual	music
+Morytanian Mystery	manual	music
+Morytanian Mystery	manual	music
+during the Darkness of Hallowvale quest.	manual	music
+Where Eagles Lair	manual	music
+Where Eagles Lair	manual	music
+during the Eagles' Peak quest.	manual	music
+Wild Isle	manual	music
+Wild Isle	manual	music
+in the Wilderness.	manual	music
+Wild Side	manual	music
+Wild Side	manual	music
+in the Wilderness.	manual	music
+Wilderness	manual	music
+Wilderness	manual	music
+in the Wilderness.	manual	music
+Revenants	manual	music
+Revenants	manual	music
+in the Revenant Caves.	manual	music
+Wilderness 	manual	music
+Wilderness 	manual	music
+in the Wilderness.	manual	music
+Wilderness 	manual	music
+Wilderness 	manual	music
+in the Wilderness.	manual	music
+Wildwood	manual	music
+Wildwood	manual	music
+in the Wilderness.	manual	music
+Winter Funfair	manual	music
+Winter Funfair	manual	music
+during a Christmas event.	manual	music
+Ice and Fire	manual	music
+Ice and Fire	manual	music
+while fighting the Wintertodt.	manual	music
+Witching	manual	music
+Witching	manual	music
+in the Wilderness.	manual	music
+Woe of the Wyvern	manual	music
+Woe of the Wyvern	manual	music
+in the Asgarnian Ice Dungeon.	manual	music
+Wonder	manual	music
+Wonder	manual	music
+in the Wilderness.	manual	music
+Wonderous	manual	music
+Wonderous	manual	music
+near the Legends' Guild.	manual	music
+Woodland	manual	music
+Woodland	manual	music
+at the Iorwerth Camp in Tirannwn.	manual	music
+Walk in the Woods, A	manual	music
+A Walk in the Woods	manual	music
+in the Kourend Woodland.	manual	music
+Work, Work, Work	manual	music
+Work\t Work\t Work	manual	music
+during the Tower of Life quest.	manual	music
+Workshop	manual	music
+Workshop	manual	music
+in Falador.	manual	music
+Wrath and Ruin	manual	music
+Wrath and Ruin	manual	music
+in Tolna's Rift.	manual	music
+Part Where You Die, The	manual	music
+The Part Where You Die	manual	music
+during the A Kingdom Divided quest.	manual	music
+Predator Xarpus	manual	music
+Predator Xarpus	manual	music
+in the Theatre of Blood.	manual	music
+Last King of the Yarasa	manual	music
+Last King of the Yarasa	manual	music
+in the Theatre of Blood.	manual	music
+Xenophobe	manual	music
+Xenophobe	manual	music
+in the Waterbirth Island Dungeon.	manual	music
+Festive Party, A	manual	music
+A Festive Party	manual	music
+during a Christmas event.	manual	music
+Yesteryear	manual	music
+Yesteryear	manual	music
+in Lumbridge.	manual	music
+Spurned Demon, The	manual	music
+The Spurned Demon	manual	music
+while fighting Zalcano.	manual	music
+Zamorak Zoo	manual	music
+Zamorak Zoo	manual	music
+in the God Wars Dungeon.	manual	music
+Zanik's Theme	manual	music
+Zanik's Theme	manual	music
+during the Land of the Goblins quest.	manual	music
+Zaros Zeitgeist	manual	music
+Zaros Zeitgeist	manual	music
+in the God Wars Dungeon.	manual	music
+Zealot	manual	music
+Zealot	manual	music
+at the Water Altar.	manual	music
+Zogre Dance	manual	music
+Zogre Dance	manual	music
+south of Castle Wars.	manual	music
+On Thin Ice	manual	music
+On Thin Ice	manual	music
+during the Dragon Slayer II quest.	manual	music
+Zombiism	manual	music
+Zombiism	manual	music
+on Harmony Island.	manual	music
+Old Ones, The	manual	music
+The Old Ones	manual	music
+during The Garden of Death quest.	manual	music
+Secrets of the North	manual	music
+Secrets of the North	manual	music
+during the Secrets of the North quest.	manual	music
+In the Shadows	manual	music
+In the Shadows	manual	music
+during the Secrets of the North quest.	manual	music
+More Than Meets the Eye	manual	music
+More Than Meets the Eye	manual	music
+during the Secrets of the North quest.	manual	music
+Vault, The	manual	music
+The Vault	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Fallen Empire, The	manual	music
+The Fallen Empire	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Prison Break	manual	music
+Prison Break	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Scar Tissue	manual	music
+Scar Tissue	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Worthy Foe, A	manual	music
+A Worthy Foe	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Colossus of the Deep	manual	music
+Colossus of the Deep	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Eye See You	manual	music
+Eye See You	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Blood Rush	manual	music
+Blood Rush	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Song of the Silent Choir	manual	music
+Song of the Silent Choir	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Unturned Stones	manual	music
+Unturned Stones	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Master of Puppets	manual	music
+Master of Puppets	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+His Faithful Servants	manual	music
+His Faithful Servants	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Tick Tock	manual	music
+Tick Tock	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Tick Tock	manual	music
+Tick Tock	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Tick Tock	manual	music
+Tick Tock	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Tick Tock	manual	music
+Tick Tock	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Tick Tock	manual	music
+Tick Tock	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Tick Tock	manual	music
+Tick Tock	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Tick Tock	manual	music
+Tick Tock	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Strangled	manual	music
+Strangled	manual	music
+during the Desert Treasure II - The Fallen Empire quest.	manual	music
+Bolrie's Diary	manual	music
+Bolrie's Diary	manual	music
+during The Path of Glouphrie quest.	manual	music
+Healin' Feelin'	manual	music
+Healin' Feelin'	manual	music
+during The Path of Glouphrie quest.	manual	music
+Longramble Scramble, The	manual	music
+The Longramble Scramble	manual	music
+during The Path of Glouphrie quest.	manual	music
+Storeroom Shuffle	manual	music
+Storeroom Shuffle	manual	music
+during The Path of Glouphrie quest.	manual	music
+Terrorbird Tussle	manual	music
+Terrorbird Tussle	manual	music
+during The Path of Glouphrie quest.	manual	music
+Waste Defaced	manual	music
+Waste Defaced	manual	music
+during The Path of Glouphrie quest.	manual	music
+Dot's Yuletide	manual	music
+Dot's Yuletide	manual	music
+during a Christmas event.	manual	music
+Children of the Sun	manual	music
+Children of the Sun	manual	music
+during the Children of the Sun quest.	manual	music
+Plots and Plans	manual	music
+Plots and Plans	manual	music
+during the Children of the Sun quest.	manual	music
+Burning Sun, The	manual	music
+The Burning Sun	manual	music
+during the Children of the Sun quest.	manual	music
+Undead Army	manual	music
+Undead Army	manual	music
+during the Defender of Varrock quest.	manual	music
+Dream Theatre, The	manual	music
+The Dream Theatre	manual	music
+during the Defender of Varrock quest.	manual	music
+Zombie Invasion	manual	music
+Zombie Invasion	manual	music
+during the Defender of Varrock quest.	manual	music
+City of Sun, The	manual	music
+The City of Sun	manual	music
+in Civitas illa Fortis.	manual	music
+Undying Light, The	manual	music
+The Undying Light	manual	music
+in the Avium Savannah.	manual	music
+Guidance of Ralos, The	manual	music
+The Guidance of Ralos	manual	music
+on Ralos' Rise.	manual	music
+Under the Mountain	manual	music
+Under the Mountain	manual	music
+in Cam Torum.	manual	music
+Ready for the Hunt	manual	music
+Ready for the Hunt	manual	music
+in the Hunter Guild.	manual	music
+Are You Not Entertained?	manual	music
+Are You Not Entertained?	manual	music
+in the Fortis Colosseum.	manual	music
+Moons of Ruin, The	manual	music
+The Moons of Ruin	manual	music
+during the Perilous Moons quest.	manual	music
+Lost to Time	manual	music
+Lost to Time	manual	music
+during the Perilous Moons quest.	manual	music
+Sunny Side Up	manual	music
+Sunny Side Up	manual	music
+during the Easter  Holiday Event.

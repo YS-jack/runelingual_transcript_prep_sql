@@ -4,6 +4,7 @@ TODAYS_DATE = datetime.today().strftime('%Y-%m-%d')
 CACHE_OUTPUT_PATH = "cache_viewer_files/Cache Viewer.html"
 CACHE_UPDATED_PATH = "cache_viewer_files/cacheData_formatted.txt"
 DATABASE_PATH = "transcript.db"
+CSV_FILE_DIR = "./manual_data/"
 TABLE_NAME = "transcript"
 
 # KEYs are the values in column

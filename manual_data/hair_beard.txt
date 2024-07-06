@@ -1,0 +1,73 @@
+english	category	sub_category
+Bald	manual	hair_beard
+Dreadlocks	manual	hair_beard
+Long	manual	hair_beard
+Medium	manual	hair_beard
+Tonsure	manual	hair_beard
+Short	manual	hair_beard
+Cropped	manual	hair_beard
+Wild spikes	manual	hair_beard
+Spikes	manual	hair_beard
+Mohawk	manual	hair_beard
+Wind braids	manual	hair_beard
+Quiff	manual	hair_beard
+Samurai	manual	hair_beard
+Princely	manual	hair_beard
+Curtains	manual	hair_beard
+Long curtains	manual	hair_beard
+Front split	manual	hair_beard
+Tousled	manual	hair_beard
+Side wedge	manual	hair_beard
+Front wedge	manual	hair_beard
+Front spikes	manual	hair_beard
+Frohawk	manual	hair_beard
+Rear skirt	manual	hair_beard
+Queue	manual	hair_beard
+Bun	manual	hair_beard
+Pigtails	manual	hair_beard
+Earmuffs	manual	hair_beard
+Side pony	manual	hair_beard
+Curls	manual	hair_beard
+Ponytail	manual	hair_beard
+Braids	manual	hair_beard
+Bunches	manual	hair_beard
+Bob	manual	hair_beard
+Layered	manual	hair_beard
+Straight	manual	hair_beard
+Straight Braids	manual	hair_beard
+Two-back	manual	hair_beard
+Mullet	manual	hair_beard
+Undercut	manual	hair_beard
+Low Bun	manual	hair_beard
+Messy Bun	manual	hair_beard
+Pompadour	manual	hair_beard
+Afro	manual	hair_beard
+Short locs	manual	hair_beard
+Spiky Mohawk	manual	hair_beard
+Slicked Mohawk	manual	hair_beard
+Long Quiff	manual	hair_beard
+Short Choppy	manual	hair_beard
+Side Afro	manual	hair_beard
+Punk	manual	hair_beard
+Half-shaved	manual	hair_beard
+Fremennik	manual	hair_beard
+Elven	manual	hair_beard
+Medium Coils	manual	hair_beard
+High ponytail	manual	hair_beard
+Plaits	manual	hair_beard
+High Bunches	manual	hair_beard
+None	manual	hair_beard
+Goatee	manual	hair_beard
+Long	manual	hair_beard
+Handlebar	manual	hair_beard
+Medium	manual	hair_beard
+Moustache	manual	hair_beard
+Short	manual	hair_beard
+Pointy	manual	hair_beard
+Split	manual	hair_beard
+Mutton	manual	hair_beard
+Full Mutton	manual	hair_beard
+Big Moustache	manual	hair_beard
+Waxed Moustache	manual	hair_beard
+Dali	manual	hair_beard
+Vizier	manual	hair_beard

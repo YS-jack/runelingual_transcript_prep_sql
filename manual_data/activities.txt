@@ -1,0 +1,27 @@
+english	category	sub_category
+Barbarian Assault	manual	activity
+Blast Furnace	manual	activity
+Castle Wars	manual	activity
+Fishing Trawler	manual	activity
+Burthorpe Games Room	manual	activity
+Nightmare Zone	manual	activity
+Pest Control	manual	activity
+Rat Pits	manual	activity
+Shades of Mort'ton	manual	activity
+Trouble Brewing	manual	activity
+TzHaar Fight Pit	manual	activity
+Shield of Arrav	manual	activity
+Clan Wars	manual	activity
+Giants' Foundry	manual	activity
+God Wars	manual	activity
+Guardians of the Rift	manual	activity
+Dagannoth Kings	manual	activity
+Player Owned Houses	manual	activity
+Tithe Farm	manual	activity
+Last Man Standing	manual	activity
+Volcanic Mine	manual	activity
+Theatre of Blood	manual	activity
+Soul Wars	manual	activity
+Shooting Stars	manual	activity
+Tombs of Amascut	manual	activity
+Mage Training Arena	manual	activity
