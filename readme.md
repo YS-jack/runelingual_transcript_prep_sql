@@ -13,7 +13,7 @@ Follow these steps to create or update the Database needed to run RuneLingual.
     3. format them into SQL table
     4. fetch missing data from the osrs wiki. This will be 
         - examines for npcs, objects
-        - dialogues with NPCs
+        - dialogues with NPCs (includes overhead dialgoues)
     2. update the existing SQL data of each language
         - this will only add new items, npcs, e.t.c. to the table, and will not touch any of the exisiting values
 4. Open/download the transcript of your language, and start translating! For information on how, ask chatGPT, it always (on topics that have many answers on the Internet) gives good and quick answers, trust me!
