@@ -25,6 +25,7 @@ NPC_OPTION_VAR_NAME = "actions"
 OBJECT_OPTION_VAR_NAME = "actions"
 
 NPC_DIALOGUE_VAR_NAME = "dialogue"
+LEVEL_UP_VAR_NAME = "lvl_up_msg"
 
 #COLUMN_NAMEs are the column names in the database
 COLUMN_NAME_ENGLISH = "english"
@@ -45,8 +46,8 @@ WIKI_URL = {"npc_dialogue" : "https://oldschool.runescape.wiki/w/Category:NPC_di
             "examine" : "https://oldschool.runescape.wiki/w/",
             "base" : "https://oldschool.runescape.wiki"}
 FETCH_NPCDIALOGUE = True
-FETCH_PETDIALOGUE = False
-FETCH_LEVELUPMESSAGE = False
+FETCH_PETDIALOGUE = True
+FETCH_LEVELUPMESSAGE = True
 FETCH_EXAMINE = True
 FETCH_ITEM_NPC_OBJECT_URLS = False
 

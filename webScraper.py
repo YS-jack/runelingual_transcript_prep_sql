@@ -35,12 +35,11 @@ def get_data_from_wiki_page(url, category):
     if not main_content:
         return []
     
-    #the dialogue part
-    li_elements = main_content.find_all('li')
     text_part_list = []
-
     entity_name = ''
-    if category == common.WIKI_URL["npc_dialogue"]:
+    # Step 3: Get the data from the webpage content
+    if category == common.WIKI_URL["npc_dialogue"] or category == common.WIKI_URL["pet_dialogue"]:
+        li_elements = main_content.find_all('li')
         entity_name = soup.find("h1", class_="firstHeading").get_text().replace("Dialogue for ", "").strip()
 
     
@@ -54,7 +53,12 @@ def get_data_from_wiki_page(url, category):
                     text_part_list.append((speaker_name, dialogue))
                 else:
                     #print("no b tag found for"+li.get_text().strip())
-                    text_part_list.append(('',li.get_text().strip()))
+                    overhead_tag = li.find(lambda tag: tag.name == 'span' and 'color:yellow;' in tag.get('style', ''))
+                    if overhead_tag:
+                        overhead_text = overhead_tag.text.strip()
+                        text_part_list.append(overhead_text)
+                    else:
+                        text_part_list.append((entity_name,li.get_text().strip()))
 
 
         #the option part
@@ -110,12 +114,33 @@ def get_data_from_wiki_page(url, category):
                                 common.COLUMN_NAME_DATE_MODIFIED:common.TODAYS_DATE,
                                 common.COLUMN_NAME_WIKI_URL:url})
         data = data_normal + data_option
-    
+    elif category == common.WIKI_URL["level_up_message"]:
+        skill_level_up_title = soup.find("h1", class_="firstHeading").get_text().strip()
+        skill = skill_level_up_title.replace('level up messages', '').strip()
+        message = main_content.find_all('div', class_='transcript-chatbox')
+        if message is None:
+            return []
+        data = []
+        for msg in message:
+            msg_text = msg.get_text().strip()
+            if len(msg_text) == 0:
+                continue
+            data.append({common.COLUMN_NAME_ENGLISH: msg_text, 
+                        common.COLUMN_NAME_CATEGORY:common.LEVEL_UP_VAR_NAME, 
+                        common.COLUMN_NAME_SUB_CATEGORY:skill, 
+                        common.COLUMN_NAME_SOURCE:skill_level_up_title, 
+                        common.COLUMN_NAME_NOTES:"",
+                        common.COLUMN_NAME_DATE_MODIFIED:common.TODAYS_DATE,
+                        common.COLUMN_NAME_WIKI_URL:url})
+
     return data
 
 def get_all_urls_of_entity(base_url, url):
     """
-    Get all the URLs for every page of the category
+    Get all the URLs from every page of the category
+    Only used for category which the list of entities is in multiple pages
+    (so only for npc dialogues, 
+    not pet dialogues or level up messages which fits all links in one page)
     """
     # Step 1: Fetch the webpage content
     response = requests.get(url)
@@ -144,6 +169,7 @@ def get_all_urls_of_entity(base_url, url):
 
 def get_all_urls_in_page(soup, base_url):
     """
+    gets all urls in the page thats starts with "/w/Transcript:"
     args:
     soup: BeautifulSoup object
 
@@ -179,21 +205,29 @@ def scrape_wiki():
             data += dialogue_data
             #print(dialogue_data)
         
-        """#for debugging
-        dialogue_data = get_data_from_wiki_page("https://oldschool.runescape.wiki/w/Transcript:Ali_the_Camel_Man", common.WIKI_URL["npc_dialogue"])
-        for dialogue in dialogue_data:
-            print(dialogue['english'])
-            print()
-        print(len(dialogue_data))"""
+    """#for debugging
+    dialogue_data = get_data_from_wiki_page("https://oldschool.runescape.wiki/w/Transcript:Vet%27ion", common.WIKI_URL["npc_dialogue"])
+    for dialogue in dialogue_data:
+        print(dialogue['english'])
+        print()
+    print(len(dialogue_data))"""
         
 
-    """    if common.FETCH_PETDIALOGUE:
+    if common.FETCH_PETDIALOGUE:
         base_url_pet_dialogue = common.WIKI_URL["pet_dialogue"]
-        url_list_pet_dialogue = get_all_urls_of_category(common.WIKI_URL["base"], base_url_pet_dialogue)
-
+        url_list_pet_dialogue = get_all_urls_of_entity(common.WIKI_URL["base"], base_url_pet_dialogue)
+        for url in url_list_pet_dialogue:
+            print("fetching from : ", url)
+            dialogue_data = get_data_from_wiki_page(url, common.WIKI_URL["pet_dialogue"])
+            data += dialogue_data
+    
     if common.FETCH_LEVELUPMESSAGE:
         base_url_level_up_message = common.WIKI_URL["level_up_message"]
-        url_list_level_up_message = get_all_urls_of_category(common.WIKI_URL["base"], base_url_level_up_message)"""
+        url_list_level_up_message = get_all_urls_of_entity(common.WIKI_URL["base"], base_url_level_up_message)
+        for url in url_list_level_up_message:
+            print("fetching from : ", url)
+            dialogue_data = get_data_from_wiki_page(url, common.WIKI_URL["level_up_message"])
+            data += dialogue_data
 
     return data
 
@@ -309,6 +343,8 @@ def scrape_chisel(url, examine_url):
             data_examine.append(examine_record)
         
         for option in options:
+            if option in [None, 'null', '']:
+                continue
             option_record = {common.COLUMN_NAME_ENGLISH: option,
                             common.COLUMN_NAME_CATEGORY: category_action,
                             common.COLUMN_NAME_SUB_CATEGORY: sub_category,
@@ -320,7 +356,7 @@ def scrape_chisel(url, examine_url):
     return data_name, data_examine, data_option
 
 if __name__ == "__main__":
-    #scrape_wiki()
+    scrape_wiki()
     #scrape_chisel(common.CHISEL_URL["item_main"], common.CHISEL_URL["items_main"])
     #scrape_chisel(common.CHISEL_URL["npc_main"], common.CHISEL_URL["npc_examine"])
-    scrape_chisel(common.CHISEL_URL["object_main"], common.CHISEL_URL["object_examine"])
+    #scrape_chisel(common.CHISEL_URL["object_main"], common.CHISEL_URL["object_examine"])
