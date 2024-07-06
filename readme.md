@@ -1,40 +1,40 @@
-# RuneLingual transcript provider
+# RuneLingual English transcript provider
 Follow these steps to create or update the Database needed to run RuneLingual.
 
 ## Steps
-1. Clone this repository. Make sure the translations on the sql folders are all upto date.
-2. Obtain data from Abex's Cache Viewer, save it inside "cache_viewer_files" folder (see [Cache Viewer Data Extraction](#cache-viewer-data-extraction))
-3. Run [main.py](main.py). This code will automatically do the following:
-    1. reformat data in "cache_viewer_files/cacheData.txt" to json format, and save as "cache_viewer_files/cacheData_formatted.txt"
-    2. open "cacheData_formatted.txt", and read it as a json variable. This contains
-        - names of items, NPCs, objects
-        - examine text of items
-        - menu option of items, NPCs, objects
-    3. format them into SQL table
-    4. fetch missing data from the osrs wiki. This will be 
-        - examines for npcs, objects
-        - dialogues with NPCs (includes overhead dialgoues)
-    2. update the existing SQL data of each language
-        - this will only add new items, npcs, e.t.c. to the table, and will not touch any of the exisiting values
-4. Open/download the transcript of your language, and start translating! For information on how, ask chatGPT,it always (on topics that have many answers on the Internet) gives good and quick answers, trust me!
-5. To publish your changes, reach out to one of the developers, they will do the following.
-    1. review the submitted changes, especially if the **number of columns** are correct.
-    2. add the files to its language's folder in the **"publish"** directory.
-6. By restarting RuneLite, the data should be updated.
+1. Clone this repository. 
+2. If trying to add new data that is **not** included in the wiki/chisel database, create or add it to existing TSV (tab separated values) files in [./manual_data](./manual_data/), . The data included in the wiki/chisel are:
+    - Name, exmaine, option of items, npcs, objects
+    - Dialogues/Overhead texts with npcs and pets
+    - Level up messages
+
+    so anything else other than the ones above should be included in any TSV files in [manual_data](./manual_data/).
+    - when creating a new TSV file, the first line should be column names, then from 2nd line write the data you wish to add. (see already existing TSV files, or reach out on discord)
+
+3. Delete the existing [transcript.db](./transcript.db).
+4. Run [main.py](main.py). This code will create 'transcript.db', and automatically add the following data to it.
+
+    - Data from the osrs wiki and chisel, which content are listed above
+    - All data inside all TSV files in './manual_data' folder
+
+All data in English should have been added to [transcript.db](./transcript.db). To view its content, download SQL viewer such as [SQLite browser](https://sqlitebrowser.org).
+
 
 ## Cache Viewer Data Extraction
 
-This folder contains scripts for extracting item, NPC, and object information from Abex's Cache Viewer 2.
+Some of the info not on the wiki/chisel exists on [Abex's Cache Viewer 2](https://abextm.github.io/cache2/#/viewer).
 
-The file "cacheData.txt" will be used for other script, to get the sql table of all data RuneLingaul needs.
+It might be a good idea to look here before writing them up manually.
 
-### Steps
-1. Open and copy the whole code in the file, named [Code to paste to cacheViewer2.txt](cache_viewer_files/code%20to%20paste%20to%20cacheViewer2.txt)
-
-2. Visit [Abex's Cache Viewer 2](https://abextm.github.io/cache2/#/editor).
-3. Delete all the code on the left side editor.
-4. Paste the code into the left side of the editor tab
-5. Press the "run" button and wait for few seconds. The right side of should get filled with lots of words (json like strings).
-5. Press "Ctrl + s" (or "save" the file from a button somewhere).
-6. Name it "Cache Viewer.html" (this should be the default value) and save it to your local computer.
-7. Move the file to [cache_viewer_file](cache_viewer_files/) folder.
+Some useful info includes:
+- location names (enum 252, 595, 1264, 2096, dbtable 64, 13)
+- slayer mobs (enum 693, different from npc names)
+- slayer rewards (enum 834, 835)
+- activity (enum 848)
+- emote (enum 1000)
+- varrock museum (1741, 1743, 1744)
+- task names (enum 3497)
+- quest names, rewards (dbtable 0)
+- hair style (dbtable 37)
+- beard style (dbtable 38)
+- music, its unlock location (dbtable 44)
